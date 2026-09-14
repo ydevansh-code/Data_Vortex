@@ -40,7 +40,7 @@
 
 ## 4. Profiling Artifacts
 
-- **Raw Profiling Report**: [reports/raw_profile.html](../reports/raw_profile.html)
-- **Cleaned Profiling Report**: [reports/cleaned_profile.html](../reports/cleaned_profile.html)
-- **Comparison Profiling Report**: [reports/comparison_profile.html](../reports/comparison_profile.html)
+- **Raw Profiling Report**: `reports/raw_profile.html` (Open locally in a web browser)
+- **Cleaned Profiling Report**: `reports/cleaned_profile.html` (Open locally in a web browser)
+- **Comparison Profiling Report**: `reports/comparison_profile.html` (Open locally in a web browser)
 - **Granular Change Log**: [docs/change_log.csv](change_log.csv)
