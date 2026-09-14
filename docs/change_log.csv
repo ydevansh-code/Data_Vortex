@@ -1,0 +1,126 @@
+timestamp,stage,column,method,rows_affected,detail
+2026-09-14T00:50:27,load,ALL,read_file,1501,"Loaded data\raw\users_raw.csv: 1501 rows, 5 cols"
+2026-09-14T00:50:27,validate,ALL,check_duplicates,0,Found 0 exact duplicate rows before cleaning
+2026-09-14T00:50:27,validate,location,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T00:50:27,validate,language,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T00:50:27,validate,account_created,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T00:50:27,validate,follower_count,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T00:50:27,placeholders,ALL,replace_placeholder_strings,4,Converted 4 placeholder strings to NaN across all columns
+2026-09-14T00:50:27,missing,location,flag_null,1,Added 'location_was_null' indicator column; values left null
+2026-09-14T00:50:27,missing,language,flag_null,1,Added 'language_was_null' indicator column; values left null
+2026-09-14T00:50:27,missing,account_created,flag_null,1,Added 'account_created_was_null' indicator column; values left null
+2026-09-14T00:50:27,missing,follower_count,median_impute,1,Imputed 1 nulls with median=2.474e+04 — chosen because column is numeric and median is outlier-robust
+2026-09-14T00:50:27,deduplicate,ALL,drop_exact_duplicates,0,Removed 0 exact duplicate rows (kept first occurrence); 1501 rows remain
+2026-09-14T00:50:27,export,ALL,write_csv,1501,Exported 1501 users to data\cleaned\users_clean.csv
+2026-09-14T00:50:27,load,ALL,read_file,12360,"Loaded data\raw\posts_raw.csv: 12360 rows, 8 cols"
+2026-09-14T00:50:27,validate,ALL,check_duplicates,360,Found 360 exact duplicate rows before cleaning
+2026-09-14T00:50:27,validate,platform,check_missing,1219,1219 nulls (9.9%) detected before imputation
+2026-09-14T00:50:27,validate,text_content,check_missing,1196,1196 nulls (9.7%) detected before imputation
+2026-09-14T00:50:27,validate,likes,check_missing,1229,1229 nulls (9.9%) detected before imputation
+2026-09-14T00:50:27,placeholders,ALL,replace_placeholder_strings,3644,Converted 3644 placeholder strings to NaN across all columns
+2026-09-14T00:50:27,missing,platform,flag_invalid,1846,Flagged 1846 invalid/null platform values (NULL string + NaN)
+2026-09-14T00:50:27,standardize,text_content,strip_html,11164,"Stripped HTML tags, entities, mojibake from text_content"
+2026-09-14T00:50:27,standardize,timestamp,multi_format_parse,12360,Parsed 12360 timestamps (ISO8601 / DD-MM-YYYY / Unix epoch); 0 remain null
+2026-09-14T00:50:27,missing,likes,median_impute,1858,Imputed 1858 null likes with median=2387
+2026-09-14T00:50:27,deduplicate,ALL,drop_exact_duplicates,360,Removed 360 exact duplicate rows (kept first occurrence); 12000 rows remain
+2026-09-14T00:50:27,export,ALL,write_csv,12000,Exported 12000 posts to data\cleaned\posts_clean.csv
+2026-09-14T00:50:28,export,merged,left_join,1501,Merged users+posts -> data\cleaned\merged_summary.csv
+2026-09-14T01:02:12,load,ALL,read_file,12360,"Loaded data\raw\posts_raw.csv: 12360 rows, 8 cols"
+2026-09-14T01:02:12,validate,ALL,check_duplicates,360,Found 360 exact duplicate rows before cleaning
+2026-09-14T01:02:12,validate,platform,check_missing,1219,1219 nulls (9.9%) detected before imputation
+2026-09-14T01:02:12,validate,text_content,check_missing,1196,1196 nulls (9.7%) detected before imputation
+2026-09-14T01:02:12,validate,likes,check_missing,1229,1229 nulls (9.9%) detected before imputation
+2026-09-14T01:02:12,placeholders,ALL,replace_placeholder_strings,3644,Converted 3644 placeholder strings to NaN across all columns
+2026-09-14T01:02:12,missing,platform,flag_null_low_mode,1219,Left 1219 nulls; mode freq 19.2% < 30% threshold — imputing would introduce significant fabrication risk
+2026-09-14T01:02:12,missing,text_content,flag_null_low_mode,1196,Left 1196 nulls; mode freq 4.9% < 30% threshold — imputing would introduce significant fabrication risk
+2026-09-14T01:02:12,missing,likes,median_impute,1229,Imputed 1229 nulls with median=2387 — chosen because column is numeric and median is outlier-robust
+2026-09-14T01:02:13,standardize,timestamp,date_to_iso8601,3622,Converted 3622 date values to YYYY-MM-DD ISO 8601
+2026-09-14T01:02:13,standardize,likes,coerce_numeric,11731,"Coerced 11731 values to numeric in 'likes', removing currency/unit symbols"
+2026-09-14T01:02:13,standardize,shares,coerce_numeric,12360,"Coerced 12360 values to numeric in 'shares', removing currency/unit symbols"
+2026-09-14T01:02:13,standardize,comments,coerce_numeric,12360,"Coerced 12360 values to numeric in 'comments', removing currency/unit symbols"
+2026-09-14T01:02:13,standardize,platform_was_null,coerce_numeric,12360,"Coerced 12360 values to numeric in 'platform_was_null', removing currency/unit symbols"
+2026-09-14T01:02:13,standardize,text_content_was_null,coerce_numeric,12360,"Coerced 12360 values to numeric in 'text_content_was_null', removing currency/unit symbols"
+2026-09-14T01:02:13,standardize,post_id,normalise_casing,0,Normalised casing for 0 values in 'post_id'
+2026-09-14T01:02:13,standardize,user_id,normalise_casing,0,Normalised casing for 0 values in 'user_id'
+2026-09-14T01:02:13,standardize,platform,normalise_casing,12360,Normalised casing for 12360 values in 'platform'
+2026-09-14T01:02:13,standardize,text_content,normalise_casing,12360,Normalised casing for 12360 values in 'text_content'
+2026-09-14T01:02:13,deduplicate,ALL,drop_exact_duplicates,360,Removed 360 exact duplicate rows (kept first occurrence); 12000 rows remain
+2026-09-14T01:02:13,export,ALL,write_csv,12000,Exported 12000 rows × 10 cols → data\cleaned\cleaned_dataset.csv
+2026-09-14T01:03:36,load,ALL,read_file,1501,"Loaded data\raw\users_raw.csv: 1501 rows, 5 cols"
+2026-09-14T01:03:36,validate,ALL,check_duplicates,0,Found 0 exact duplicate rows before cleaning
+2026-09-14T01:03:36,validate,location,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T01:03:36,validate,language,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T01:03:36,validate,account_created,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T01:03:36,validate,follower_count,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T01:03:36,placeholders,ALL,replace_placeholder_strings,4,Converted 4 placeholder strings to NaN across all columns
+2026-09-14T01:03:36,missing,location,flag_null,1,Added 'location_was_null' indicator column; values left null
+2026-09-14T01:03:36,missing,language,flag_null,1,Added 'language_was_null' indicator column; values left null
+2026-09-14T01:03:36,missing,account_created,flag_null,1,Added 'account_created_was_null' indicator column; values left null
+2026-09-14T01:03:36,missing,follower_count,median_impute,1,Imputed 1 nulls with median=2.474e+04 — chosen because column is numeric and median is outlier-robust
+2026-09-14T01:03:36,deduplicate,ALL,drop_exact_duplicates,0,Removed 0 exact duplicate rows (kept first occurrence); 1501 rows remain
+2026-09-14T01:03:36,export,ALL,write_csv,1501,Exported 1501 users to data\cleaned\users_clean.csv
+2026-09-14T01:03:36,load,ALL,read_file,12360,"Loaded data\raw\posts_raw.csv: 12360 rows, 8 cols"
+2026-09-14T01:03:36,validate,ALL,check_duplicates,360,Found 360 exact duplicate rows before cleaning
+2026-09-14T01:03:36,validate,platform,check_missing,1219,1219 nulls (9.9%) detected before imputation
+2026-09-14T01:03:36,validate,text_content,check_missing,1196,1196 nulls (9.7%) detected before imputation
+2026-09-14T01:03:36,validate,likes,check_missing,1229,1229 nulls (9.9%) detected before imputation
+2026-09-14T01:03:36,placeholders,ALL,replace_placeholder_strings,3644,Converted 3644 placeholder strings to NaN across all columns
+2026-09-14T01:03:36,missing,platform,flag_invalid,1846,Flagged 1846 invalid/null platform values (NULL string + NaN)
+2026-09-14T01:03:36,standardize,text_content,strip_html,11164,"Stripped HTML tags, entities, mojibake from text_content"
+2026-09-14T01:03:36,standardize,timestamp,multi_format_parse,12360,Parsed 12360 timestamps (ISO8601 / DD-MM-YYYY / Unix epoch); 0 remain null
+2026-09-14T01:03:36,missing,likes,median_impute,1858,Imputed 1858 null likes with median=2387
+2026-09-14T01:03:36,deduplicate,ALL,drop_exact_duplicates,360,Removed 360 exact duplicate rows (kept first occurrence); 12000 rows remain
+2026-09-14T01:03:36,export,ALL,write_csv,12000,Exported 12000 posts to data\cleaned\posts_clean.csv
+2026-09-14T01:03:36,export,merged,left_join,1501,Merged users+posts -> data\cleaned\merged_summary.csv
+2026-09-14T14:31:36,load,ALL,read_file,1501,"Loaded data\raw\users_raw.csv: 1501 rows, 5 cols"
+2026-09-14T14:31:36,validate,ALL,check_duplicates,0,Found 0 exact duplicate rows before cleaning
+2026-09-14T14:31:36,validate,location,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T14:31:36,validate,language,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T14:31:36,validate,account_created,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T14:31:36,validate,follower_count,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T14:31:36,placeholders,ALL,replace_placeholder_strings,4,Converted 4 placeholder strings to NaN across all columns
+2026-09-14T14:31:36,missing,location,flag_null,1,Added 'location_was_null' indicator column; values left null
+2026-09-14T14:31:36,missing,language,flag_null,1,Added 'language_was_null' indicator column; values left null
+2026-09-14T14:31:36,missing,account_created,flag_null,1,Added 'account_created_was_null' indicator column; values left null
+2026-09-14T14:31:36,missing,follower_count,median_impute,1,Imputed 1 nulls with median=2.474e+04 — chosen because column is numeric and median is outlier-robust
+2026-09-14T14:31:36,deduplicate,ALL,drop_exact_duplicates,0,Removed 0 exact duplicate rows (kept first occurrence); 1501 rows remain
+2026-09-14T14:31:36,export,ALL,write_csv,1501,Exported 1501 users to data\cleaned\users_clean.csv
+2026-09-14T14:31:36,load,ALL,read_file,12360,"Loaded data\raw\posts_raw.csv: 12360 rows, 8 cols"
+2026-09-14T14:31:36,validate,ALL,check_duplicates,360,Found 360 exact duplicate rows before cleaning
+2026-09-14T14:31:36,validate,platform,check_missing,1219,1219 nulls (9.9%) detected before imputation
+2026-09-14T14:31:36,validate,text_content,check_missing,1196,1196 nulls (9.7%) detected before imputation
+2026-09-14T14:31:36,validate,likes,check_missing,1229,1229 nulls (9.9%) detected before imputation
+2026-09-14T14:31:36,placeholders,ALL,replace_placeholder_strings,3644,Converted 3644 placeholder strings to NaN across all columns
+2026-09-14T14:31:36,missing,platform,flag_invalid,1846,Flagged 1846 invalid/null platform values (NULL string + NaN)
+2026-09-14T14:31:36,standardize,text_content,strip_html,11164,"Stripped HTML tags, entities, mojibake from text_content"
+2026-09-14T14:31:36,standardize,timestamp,multi_format_parse,12360,Parsed 12360 timestamps (ISO8601 / DD-MM-YYYY / Unix epoch); 0 remain null
+2026-09-14T14:31:37,missing,likes,median_impute,1858,Imputed 1858 null likes with median=2387
+2026-09-14T14:31:37,deduplicate,ALL,drop_exact_duplicates,360,Removed 360 exact duplicate rows (kept first occurrence); 12000 rows remain
+2026-09-14T14:31:37,export,ALL,write_csv,12000,Exported 12000 posts to data\cleaned\posts_clean.csv
+2026-09-14T14:31:37,export,merged,left_join,1501,Merged users+posts -> data\cleaned\merged_summary.csv
+2026-09-14T15:02:28,load,ALL,read_file,1501,"Loaded data\raw\users_raw.csv: 1501 rows, 5 cols"
+2026-09-14T15:02:28,validate,ALL,check_duplicates,0,Found 0 exact duplicate rows before cleaning
+2026-09-14T15:02:28,validate,location,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T15:02:28,validate,language,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T15:02:28,validate,account_created,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T15:02:28,validate,follower_count,check_missing,1,1 nulls (0.1%) detected before imputation
+2026-09-14T15:02:28,placeholders,ALL,replace_placeholder_strings,4,Converted 4 placeholder strings to NaN across all columns
+2026-09-14T15:02:28,missing,location,flag_null,1,Added 'location_was_null' indicator column; values left null
+2026-09-14T15:02:28,missing,language,flag_null,1,Added 'language_was_null' indicator column; values left null
+2026-09-14T15:02:28,missing,account_created,flag_null,1,Added 'account_created_was_null' indicator column; values left null
+2026-09-14T15:02:28,missing,follower_count,median_impute,1,Imputed 1 nulls with median=2.474e+04 — chosen because column is numeric and median is outlier-robust
+2026-09-14T15:02:28,deduplicate,ALL,drop_exact_duplicates,0,Removed 0 exact duplicate rows (kept first occurrence); 1501 rows remain
+2026-09-14T15:02:28,export,ALL,write_csv,1501,Exported 1501 users to data\cleaned\users_clean.csv
+2026-09-14T15:02:28,load,ALL,read_file,12360,"Loaded data\raw\posts_raw.csv: 12360 rows, 8 cols"
+2026-09-14T15:02:28,validate,ALL,check_duplicates,360,Found 360 exact duplicate rows before cleaning
+2026-09-14T15:02:28,validate,platform,check_missing,1219,1219 nulls (9.9%) detected before imputation
+2026-09-14T15:02:28,validate,text_content,check_missing,1196,1196 nulls (9.7%) detected before imputation
+2026-09-14T15:02:28,validate,likes,check_missing,1229,1229 nulls (9.9%) detected before imputation
+2026-09-14T15:02:29,placeholders,ALL,replace_placeholder_strings,3644,Converted 3644 placeholder strings to NaN across all columns
+2026-09-14T15:02:29,missing,platform,flag_invalid,1846,Flagged 1846 invalid/null platform values (NULL string + NaN)
+2026-09-14T15:02:29,standardize,text_content,strip_html,11164,"Stripped HTML tags, entities, mojibake from text_content"
+2026-09-14T15:02:29,standardize,timestamp,multi_format_parse,12360,Parsed 12360 timestamps (ISO8601 / DD-MM-YYYY / Unix epoch); 0 remain null
+2026-09-14T15:02:29,missing,likes,median_impute,1858,Imputed 1858 null likes with median=2387
+2026-09-14T15:02:29,deduplicate,ALL,drop_exact_duplicates,360,Removed 360 exact duplicate rows (kept first occurrence); 12000 rows remain
+2026-09-14T15:02:29,export,ALL,write_csv,12000,Exported 12000 posts to data\cleaned\posts_clean.csv
+2026-09-14T15:02:29,export,merged,left_join,1501,Merged users+posts -> data\cleaned\merged_summary.csv
