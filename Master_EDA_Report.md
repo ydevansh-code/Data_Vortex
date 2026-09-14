@@ -121,9 +121,9 @@ This report analyzes the recovered social media dataset comprising **1,501 users
 
 ## 4. Profiling Artifacts
 
-- **Raw Profiling Report**: `reports/raw_profile.html` (Open locally in a web browser)
-- **Cleaned Profiling Report**: `reports/cleaned_profile.html` (Open locally in a web browser)
-- **Comparison Profiling Report**: `reports/comparison_profile.html` (Open locally in a web browser)
+- **Raw Profiling Report**: [View Interactive HTML Profile](https://github.com/ydevansh-code/Data_Vortex/blob/main/reports/raw_profile.html)
+- **Cleaned Profiling Report**: [View Interactive HTML Profile](https://github.com/ydevansh-code/Data_Vortex/blob/main/reports/cleaned_profile.html)
+- **Comparison Profiling Report**: [View Interactive HTML Comparison](https://github.com/ydevansh-code/Data_Vortex/blob/main/reports/comparison_profile.html)
 - **Granular Change Log**: [docs/change_log.csv](change_log.csv)
 
 
