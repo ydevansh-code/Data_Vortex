@@ -55,3 +55,22 @@ This report analyzes the recovered social media dataset comprising **1,501 users
 1. **Algorithmic Content Strategy**: Prioritize content resonance over follower acquisition, as engagement is independent of follower count.
 2. **Platform-Specific Optimization**: Deploy video-first content on YouTube/Instagram for pure reach (likes), and discussion hooks on Reddit/Twitter for viral amplification (shares/comments).
 3. **Multi-Region Localization**: Maintain multi-language parity as user attention is equally distributed across primary linguistic regions.
+
+---
+
+## Visual Evidence
+
+### 1. Missingness Pattern
+![Missingness Pattern](figures/missingness_pattern.png)
+
+### 2. Platform Distribution
+![Platform Distribution](figures/distribution_platform.png)
+
+### 3. Numeric Distributions
+![Numeric Distributions](figures/distributions_numeric.png)
+
+### 4. Correlation Heatmap
+![Correlation Heatmap](figures/correlation_heatmap.png)
+
+### 5. Outlier Analysis
+![Outliers Boxplots](figures/outliers_boxplots.png)
