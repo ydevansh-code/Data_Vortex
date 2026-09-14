@@ -22,7 +22,7 @@ This automated workflow executes:
 1. **Raw Profiling** → `reports/raw_profile.html`
 2. **Multi-Table Data Cleaning & Harmonization** → `data/cleaned/` (`users_clean.csv`, `posts_clean.csv`, `merged_summary.csv`)
 3. **Cleaned Profiling & Association Analysis** → `reports/cleaned_profile.html`, `reports/comparison_profile.html`
-4. **Statistical EDA & Visualization Suite** → `reports/figures/`, `reports/eda_summary.md`, `notebooks/eda.ipynb`
+4. **Statistical EDA & Visualization Suite** → `reports/figures/`, `docs/eda_summary.md`, `notebooks/eda.ipynb`
 
 To skip heavy HTML profiling reports for quick execution:
 ```bash
@@ -74,10 +74,10 @@ Data_Vortex/
 |-----------|--------------|---------------------------|
 | **1. Data Cleaning Accuracy** | `src/clean_data.py`, `docs/decisions.md` | Accurate multi-tier date parsing, regex HTML/mojibake stripping, outlier-resistant median imputation |
 | **2. Data Handling & Preprocessing Logic** | `src/run_cleaning.py`, `src/clean_data.py` | 7-stage pipeline (Load → Validate → Placeholders → Missing → Standardize → Deduplicate → Export) |
-| **3. EDA Depth & Insight Discovery** | `notebooks/eda.ipynb`, `reports/eda_summary.md` | Follower vs. engagement independence, cross-platform conversions, hashtag clustering, geo-demographic patterns |
+| **3. EDA Depth & Insight Discovery** | `notebooks/eda.ipynb`, `docs/eda_summary.md` | Follower vs. engagement independence, cross-platform conversions, hashtag clustering, geo-demographic patterns |
 | **4. Data Consistency & Standardisation** | `docs/profiling_comparison.md`, `data/cleaned/` | ISO 8601 timestamps, uniform category enums, normalized float/int columns, 100% duplicate elimination |
 | **5. Code Quality & Documentation** | `src/`, `README.md`, `docs/` | Modular functions, PEP-8 compliance, comprehensive docstrings, zero hardcoded absolute paths |
-| **6. Insight Interpretation & Clarity** | `reports/eda_summary.md`, `reports/figures/` | Actionable recommendations for research institutes, clear visual storytelling with charts |
+| **6. Insight Interpretation & Clarity** | `docs/eda_summary.md`, `reports/figures/` | Actionable recommendations for research institutes, clear visual storytelling with charts |
 
 ---
 

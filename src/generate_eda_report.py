@@ -106,8 +106,8 @@ This report analyzes the recovered social media dataset comprising **{len(users)
 - **Language Split**: Balanced multi-lingual presence across English (en), Spanish (es), French (fr), German (de), Japanese (ja), Arabic (ar), and Mandarin (zh).
 - **Follower Distribution**: Uniform distribution indicating synthetic benchmark generation across tier brackets from 1,000 to 50,000 followers.
 
-![Follower Distribution](figures/01_follower_distribution.png)
-![Top Locations](figures/02_top_locations.png)
+![Follower Distribution](../reports/figures/01_follower_distribution.png)
+![Top Locations](../reports/figures/02_top_locations.png)
 
 ---
 
@@ -118,8 +118,8 @@ This report analyzes the recovered social media dataset comprising **{len(users)
   - **Twitter & Reddit** exhibit highest share-to-like conversion ratios.
   - **Facebook** shows strong comment-to-like ratios for community discussions.
 
-![Platform Distribution](figures/03_platform_distribution.png)
-![Platform Engagement](figures/04_platform_engagement.png)
+![Platform Distribution](../reports/figures/03_platform_distribution.png)
+![Platform Engagement](../reports/figures/04_platform_engagement.png)
 
 ---
 
@@ -127,7 +127,7 @@ This report analyzes the recovered social media dataset comprising **{len(users)
 - Engagement formula applied: `Engagement Score = 0.5 * Avg_Likes + 0.3 * Total_Shares + 0.2 * Total_Comments`
 - **Crucial Finding**: Correlation between follower count and engagement score is **{corr.loc['follower_count', 'engagement_score']:.4f}** (essentially zero). Virality and engagement on modern platforms are driven primarily by content quality and algorithmic distribution rather than static follower base.
 
-![Followers vs Engagement](figures/05_followers_vs_engagement.png)
+![Followers vs Engagement](../reports/figures/05_followers_vs_engagement.png)
 
 ---
 
@@ -135,7 +135,7 @@ This report analyzes the recovered social media dataset comprising **{len(users)
 - Top recurring hashtags revolve around technology, innovation, fitness, lifestyle, and global events (`#Tech`, `#AI`, `#Fitness`, `#Innovation`, `#Design`).
 - Cleaned text eliminates all HTML entities, tag corruptions, and invalid unicode artifacts.
 
-![Top Hashtags](figures/06_top_hashtags.png)
+![Top Hashtags](../reports/figures/06_top_hashtags.png)
 
 ---
 
