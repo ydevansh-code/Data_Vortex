@@ -119,12 +119,12 @@ This report analyzes the recovered social media dataset comprising **1,501 users
 
 ---
 
-## 4. Profiling Artifacts
+## 4. Primary Project Documentation & Audit Links
 
-- **Raw Profiling Report**: [View Interactive HTML Profile](https://github.com/ydevansh-code/Data_Vortex/blob/main/reports/raw_profile.html)
-- **Cleaned Profiling Report**: [View Interactive HTML Profile](https://github.com/ydevansh-code/Data_Vortex/blob/main/reports/cleaned_profile.html)
-- **Comparison Profiling Report**: [View Interactive HTML Comparison](https://github.com/ydevansh-code/Data_Vortex/blob/main/reports/comparison_profile.html)
-- **Granular Change Log**: [docs/change_log.csv](change_log.csv)
+- **Data Quality & Profiling Audit**: [View Before/After Profiling Comparison](https://github.com/ydevansh-code/Data_Vortex/blob/main/docs/profiling_comparison.md)
+- **Statistical Methodology**: [View Decisions & Imputation Rationale](https://github.com/ydevansh-code/Data_Vortex/blob/main/docs/decisions.md)
+- **Executive EDA Summary**: [View EDA Insights Report](https://github.com/ydevansh-code/Data_Vortex/blob/main/docs/eda_summary.md)
+- **Master Repository Documentation**: [View Master EDA Report](https://github.com/ydevansh-code/Data_Vortex/blob/main/Master_EDA_Report.md)
 
 
 <br><br>
