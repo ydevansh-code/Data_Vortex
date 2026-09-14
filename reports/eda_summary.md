@@ -58,19 +58,3 @@ This report analyzes the recovered social media dataset comprising **1,501 users
 
 ---
 
-## Visual Evidence
-
-### 1. Missingness Pattern
-![Missingness Pattern](figures/missingness_pattern.png)
-
-### 2. Platform Distribution
-![Platform Distribution](figures/distribution_platform.png)
-
-### 3. Numeric Distributions
-![Numeric Distributions](figures/distributions_numeric.png)
-
-### 4. Correlation Heatmap
-![Correlation Heatmap](figures/correlation_heatmap.png)
-
-### 5. Outlier Analysis
-![Outliers Boxplots](figures/outliers_boxplots.png)
