@@ -38,10 +38,13 @@ To centralize business logic and handle SQLite's strict `NULL` addition behavior
 ```sql
 CREATE VIEW v_post_engagement AS
 SELECT 
-    p.*, 
-    (COALESCE(p.likes, 0) + COALESCE(p.shares, 0) + COALESCE(p.comments, 0)) AS total_engagement
+    p.*,
+    (p.likes + p.shares + p.comments) AS total_engagement,
+    CASE WHEN p.likes IS NULL OR p.shares IS NULL OR p.comments IS NULL
+         THEN 1 ELSE 0 END AS has_null_component
 FROM posts p;
 ```
+**Design choice:** No `COALESCE` is used. If any engagement component is NULL, `total_engagement` will also be NULL, which is the truthful representation of "unknown". Queries filter explicitly using `WHERE has_null_component = 0` or `WHERE likes >= 0` rather than substituting zero for missing values, which would fabricate data.
 
 ---
 
@@ -84,7 +87,7 @@ ORDER BY avg_total_engagement DESC;
 - **Filter Applied**: `WHERE p.likes >= 0`
 - **Exclusion Count**: 509 rows dropped globally due to negative likes. Total dataset evaluated: 11,491 posts.
 - **Justification**: We retained `platform IS NULL` posts because they still represent valid geographic engagement. We split `location` into `city` and `country` during data load to allow for granular multi-level geographic grouping.
-- **Outcome**: Tokyo, Japan ranks #1 for total engagement.
+- **Outcome**: Munich, Germany ranks #1 for total engagement (1,753,727 total engagement, 439 posts, avg 3,994.82 per post).
 
 ### SQL Query
 ```sql
