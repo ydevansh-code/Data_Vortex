@@ -228,4 +228,7 @@ SELECT 'negative_likes', COUNT(*) FROM posts WHERE likes < 0;
 | null_platforms | 1784 |
 | negative_likes | 509 |
 
+### Output Screenshot
+![validation_checks.jpg](./screenshots/validation_checks.jpg)
+
 *(End of Report)*

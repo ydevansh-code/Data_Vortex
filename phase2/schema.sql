@@ -32,7 +32,7 @@ CREATE INDEX idx_posts_platform ON posts(platform);
 CREATE VIEW v_post_engagement AS
 SELECT 
     p.*,
-    -- No COALESCE. If any component is NULL the total is NULL, which is
+    -- No default coalescing. If any component is NULL the total is NULL, which is
     -- the truthful representation of "unknown". Queries must filter
     -- explicitly rather than have a zero substituted for them.
     (p.likes + p.shares + p.comments) AS total_engagement,
