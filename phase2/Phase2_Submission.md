@@ -72,7 +72,7 @@ ORDER BY avg_total_engagement DESC;
 ```
 
 ### Output Screenshot
-*(Insert Screenshot Here: Show Query, Result Grid, Tool UI, and Row Count)*
+![e3_avg_engagement_by_platform.jpg](./screenshots/e3_avg_engagement_by_platform.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ LIMIT 10;
 ```
 
 ### Output Screenshot
-*(Insert Screenshot Here: Show Query, Result Grid, Tool UI, and Row Count)*
+![m1_location_engagement.jpg](./screenshots/m1_location_engagement.jpg)
 
 ---
 
@@ -138,9 +138,9 @@ Since no post can reach the 2x absolute threshold, we answer the question's true
 The near-uniform engagement across posts implies the platform's distribution mechanics are not producing viral outliers — which is itself a meaningful finding about a synthetic or algorithmically-flattened feed.
 
 ### Output Screenshots
-- `h3_diagnostic_threshold.jpg`
-- `h3_literal_empty_result.jpg`
-- `h3_relative_outperformers.jpg`
+![h3_diagnostic_threshold.jpg](./screenshots/h3_diagnostic_threshold.jpg)
+![h3_literal_empty_result.jpg](./screenshots/h3_literal_empty_result.jpg)
+![h3_relative_outperformers.jpg](./screenshots/h3_relative_outperformers.jpg)
 
 ---
 
