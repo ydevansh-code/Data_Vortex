@@ -1,0 +1,9 @@
+metric,value
+users_count,1501
+posts_count,12000
+duplicate_users,0
+duplicate_posts,0
+null_platforms,1784
+negative_likes,509
+max_shares,2000
+min_shares,0
