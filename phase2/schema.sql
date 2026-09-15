@@ -6,7 +6,7 @@ CREATE TABLE users (
     country                  TEXT,
     language                 TEXT,
     account_created          TEXT,
-    follower_count           REAL,
+    follower_count           REAL CHECK (follower_count IS NULL OR follower_count >= 0),
     location_was_null        INTEGER,
     language_was_null        INTEGER,
     account_created_was_null INTEGER
@@ -31,6 +31,11 @@ CREATE INDEX idx_posts_platform ON posts(platform);
 -- View to abstract engagement calculation and enforce strict non-NULL math
 CREATE VIEW v_post_engagement AS
 SELECT 
-    p.*, 
-    (COALESCE(p.likes, 0) + COALESCE(p.shares, 0) + COALESCE(p.comments, 0)) AS total_engagement
+    p.*,
+    -- No COALESCE. If any component is NULL the total is NULL, which is
+    -- the truthful representation of "unknown". Queries must filter
+    -- explicitly rather than have a zero substituted for them.
+    (p.likes + p.shares + p.comments) AS total_engagement,
+    CASE WHEN p.likes IS NULL OR p.shares IS NULL OR p.comments IS NULL
+         THEN 1 ELSE 0 END            AS has_null_component
 FROM posts p;

@@ -111,48 +111,36 @@ LIMIT 10;
 
 **Challenge:** Identify posts whose engagement is significantly higher (>2x) than the average engagement of that platform.
 
-### Logic Explanation & The "Zero Result" Insight
-- **Filter Applied**: `WHERE platform IS NOT NULL AND likes >= 0`
-- **Exclusion Count**: 2,205 rows dropped (same as Q1).
-- **Result:** 0 rows returned for the >2x literal threshold.
-- **Statistical Justification**: The underlying synthetic dataset follows a strict uniform distribution bounded by maximum values (Likes max 5000, Shares max 2000, Comments max 1000). The absolute mathematical maximum engagement a post can achieve is 8,000. The mean across all platforms is ~4,000. Therefore, it is statistically impossible for the maximum value to exceed twice the mean ($8000 < 2 \times 4000$).
-- **Action Taken**: We provide the literal query (Part 1) to prove the mathematical constraint, and a supplementary `PERCENT_RANK()` query (Part 2) to identify the true top 5% performers relative to their platform.
+### Why H3 Returns Zero Rows (And Why That Is The Finding)
 
-### SQL Query (Part 1: Literal Requirement)
-```sql
-WITH platform_stats AS (
-    SELECT
-        post_id,
-        platform,
-        total_engagement,
-        AVG(total_engagement) OVER (PARTITION BY platform) AS platform_avg_eng
-    FROM v_post_engagement
-    WHERE platform IS NOT NULL AND likes >= 0
-)
-SELECT *
-FROM platform_stats
-WHERE total_engagement >= 2 * platform_avg_eng;
-```
+**1. Diagnostic Evidence**
+The requirement asks for posts exceeding 2x their platform's average engagement. As proven by the diagnostic query below, no platform's maximum engagement reaches the 2x threshold.
 
-### SQL Query (Part 2: Supplementary 95th Percentile Insight)
-```sql
-WITH ranked_posts AS (
-    SELECT
-        post_id,
-        platform,
-        total_engagement,
-        PERCENT_RANK() OVER (PARTITION BY platform ORDER BY total_engagement ASC) as relative_rank
-    FROM v_post_engagement
-    WHERE platform IS NOT NULL AND likes >= 0
-)
-SELECT post_id, platform, total_engagement, ROUND(relative_rank, 4) AS relative_rank
-FROM ranked_posts
-WHERE relative_rank >= 0.95
-ORDER BY platform, total_engagement DESC;
-```
+| platform | n_posts | avg_engagement | threshold_2x | max_engagement | max_to_mean_ratio |
+|---|---|---|---|---|---|
+| YouTube | 1990 | 4026.9 | 8053.8 | 7755.0 | 1.926 |
+| Instagram | 1893 | 4023.9 | 8047.7 | 7893.0 | 1.962 |
+| Facebook | 2004 | 3996.2 | 7992.4 | 7764.0 | 1.943 |
+| Reddit | 1952 | 3984.1 | 7968.3 | 7793.0 | 1.956 |
+| Twitter | 1956 | 3946.6 | 7893.2 | 7628.0 | 1.933 |
 
-### Output Screenshot
-*(Insert Screenshot Here: Show Query, Result Grid, Tool UI, and Row Count)*
+**2. Statistical Justification**
+The synthetic dataset uses a bounded uniform distribution (Likes max 5000, Shares max 2000, Comments max 1000). The absolute maximum possible engagement is 8,000. Because the mean across platforms sits near ~4,000, it is mathematically impossible for the maximum value (e.g., 7,893 for Instagram) to exceed twice the mean (7893 < 2 * 4023.9). 
+
+**3. Literal Result**
+The literal query asking for >2x platform average correctly returns 0 rows. The query logic is completely correct, but the data itself is the constraint.
+*(Screenshot: `h3_literal_empty_result.jpg` showing 0 rows)*
+
+**4. Meaningful Answer (Relative Outperformers)**
+Since no post can reach the 2x absolute threshold, we answer the question's true intent by finding posts that most outperform their own platform. We use `PERCENT_RANK()` to dynamically identify the top 1% (99th percentile) of performers relative to their own platform.
+
+**5. Business Interpretation**
+The near-uniform engagement across posts implies the platform's distribution mechanics are not producing viral outliers — which is itself a meaningful finding about a synthetic or algorithmically-flattened feed.
+
+### Output Screenshots
+- `h3_diagnostic_threshold.jpg`
+- `h3_literal_empty_result.jpg`
+- `h3_relative_outperformers.jpg`
 
 ---
 

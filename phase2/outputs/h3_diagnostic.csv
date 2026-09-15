@@ -1,0 +1,6 @@
+platform,n_posts,avg_engagement,threshold_2x,max_engagement,max_to_mean_ratio
+YouTube,1990,4026.9,8053.8,7755.0,1.926
+Instagram,1893,4023.9,8047.7,7893.0,1.962
+Facebook,2004,3996.2,7992.4,7764.0,1.943
+Reddit,1952,3984.1,7968.3,7793.0,1.956
+Twitter,1956,3946.6,7893.2,7628.0,1.933

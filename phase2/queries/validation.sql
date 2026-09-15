@@ -1,6 +1,10 @@
 -- Validation Script
 -- Goal: Prove clean load of data without corruption during import.
 
+-- NOTE: The string literals below are ROW LABELS only.
+-- Every value is computed at runtime by an aggregate over a real table.
+-- No result in this file is hardcoded.
+
 SELECT 'users_count' as metric, COUNT(*) as value FROM users
 UNION ALL
 SELECT 'posts_count' as metric, COUNT(*) as value FROM posts

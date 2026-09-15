@@ -1,0 +1,24 @@
+DATA VORTEX PHASE 2 — AUDIT REPORT
+
+BLOCKERS: 15   WARNINGS: 5
+
+[BLOCKER] [1-FILES] MISSING: phase2/queries/h3.sql
+[BLOCKER] [1-FILES] Only 0 screenshot(s) found. Rulebook requires Output Screenshots for every question. Need at least 3.
+[WARN] [1-FILES] h3_part1.csv has no data rows
+[BLOCKER] [1-FILES] NO PDF in phase2/. Rulebook: 'Submission Format: A PDF document.' You must export Phase2_Submission.md to PDF before submitting.
+[BLOCKER] [2-GIT] 5 uncommitted/untracked change(s). The 'everything is pushed' claim is FALSE until these are committed.
+[BLOCKER] [2-GIT] Local commits exist that have NOT been pushed to remote.
+[WARN] [3-SCHEMA] users has no CHECK constraint, contradicting claim 2.3
+[WARN] [3-SCHEMA] View 'v_post_engagement' uses COALESCE. If it converts NULL likes to 0, unknown values silently become real zeros and enter your averages. Rulebook: 'Fabrication of data is prohibited.' Either justify this explicitly in the report, or filter NULLs instead of defaulting them.
+[WARN] [4-DATA] H3 literal query returns 0 rows — CONFIRMED. This is defensible ONLY if the report (a) shows this exact table as proof, (b) explains max/mean ~= 2 under a near-uniform distribution, and (c) presents a working alternative. A blank result grid with no explanation reads as a failed query.
+[BLOCKER] [5-QUERIES] bonus_h5.sql statement 1 FAILED: unrecognized token: "'%&amp"
+[WARN] [5-QUERIES] h3_part1.sql statement 1 returns ZERO rows — you cannot screenshot a meaningful result.
+[BLOCKER] [6-HARDCODE] validation.sql:5 — UNION ALL SELECT of literal strings (fake result set!)
+[BLOCKER] [6-HARDCODE] validation.sql:7 — UNION ALL SELECT of literal strings (fake result set!)
+[BLOCKER] [6-HARDCODE] validation.sql:9 — UNION ALL SELECT of literal strings (fake result set!)
+[BLOCKER] [6-HARDCODE] validation.sql:11 — UNION ALL SELECT of literal strings (fake result set!)
+[BLOCKER] [6-HARDCODE] validation.sql:13 — UNION ALL SELECT of literal strings (fake result set!)
+[BLOCKER] [6-HARDCODE] validation.sql:15 — UNION ALL SELECT of literal strings (fake result set!)
+[BLOCKER] [6-HARDCODE] validation.sql:17 — UNION ALL SELECT of literal strings (fake result set!)
+[BLOCKER] [7-REPORT] Only 0 image(s) embedded. The rulebook requires Output Screenshots. Placeholder text is not a screenshot.
+[BLOCKER] [7-REPORT] Placeholder text found in the submission doc: 'insert screenshot'. Search the file and replace it before exporting.
