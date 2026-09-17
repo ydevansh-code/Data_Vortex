@@ -1,0 +1,21 @@
+Text Snippet,True Label,Predicted,Error Category
+I wonder if by that time Briana finally had the baby,Neutral,Negative,Weak negative signal misread as Neutral
+Rick stein Saturday kitchen quote fishing is by far the worlds most dangerous job haha #th...,Negative,Positive,Missed negation / sarcasm
+"""Rodgers just confirmed that both Allen and Can are fit, and will be back in the squad for...",Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+Not a great start for the amateur Paul Dunne. Imagine having to compose yourself to hit yo...,Negative,Positive,Negation handling failure
+"""With the federal budget deal signed into law, people 70+ may be able to make large charit...",Neutral,Negative,Weak negative signal misread as Neutral
+Just remember Michelle Obama told Barack Obama she may not vote for him for senate just be...,Neutral,Negative,Negation handling failure
+"""Carlo Ancelotti: Isco is a very important player. Tomorrow, James Rodriguez will start - ...",Neutral,Positive,Weak positive signal misread as Neutral
+"#day #God #known #Sunday #week Question and Answer #prayer #church""",Neutral,Positive,Weak positive signal misread as Neutral
+@user oh snap. You guys know who @user is? I'll have to meet the Big Brother fan who runs ...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+"""TONIGHT (FRIDAY!) AT UPTOWN BILL'S COFFEE HOUSE 7 pm. Victorian Christmas Concert with Cu...",Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+Alan rickman reading return of the native- perfect Sunday listening #bliss,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+@user @user HELP!! Bobby Jindal has just doomed Louisana.,Negative,Neutral,Ambiguous boundary (Negative ≈ Neutral)
+Cannot believe I've just downloaded an avenged sevenfold track to play alongside mariah Ca...,Neutral,Positive,Negation handling failure
+"""\""""""""@Peter_Owen1: Bulls season tips off Wednesday night vs Sacramento Kings. Excited is ...",Negative,Positive,Negation handling failure
+When Amy schumer is friends with ur 2nd grade teacher &amp; updates u on her life (she tau...,Neutral,Negative,Weak negative signal misread as Neutral
+Sorry but on September 12 I will be watching the Oklahoma Tennessee game not Floyd Mayweat...,Negative,Neutral,Negation handling failure
+@user please stop by Cincinnati fire engine 3 at 329 east 9th after your show! Everyday At...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+Soccer Saturday with our son. They\u2019re playing the hardest team in the league. Then th...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+When you feel like Zayn is going to follow you soon and end of the day you're like well ma...,Neutral,Positive,Weak positive signal misread as Neutral
+Shooting Tvshow Sons of Anarchy at my studio today. They closed off all the streets for a ...,Positive,Negative,Overly negative framing detected
