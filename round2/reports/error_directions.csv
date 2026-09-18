@@ -1,0 +1,7 @@
+True → Predicted,Count,% of Errors,% of Class
+Positive → Neutral,155,24.3,28.5
+Neutral → Negative,150,23.5,27.3
+Neutral → Positive,109,17.1,19.8
+Negative → Neutral,107,16.7,22.0
+Positive → Negative,60,9.4,11.0
+Negative → Positive,58,9.1,11.9

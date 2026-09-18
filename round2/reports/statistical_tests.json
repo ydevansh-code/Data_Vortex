@@ -1,0 +1,20 @@
+{
+  "mcnemar": {
+    "statistic": 103.4557,
+    "p_value": 0.0,
+    "b_bertweet_right_svc_wrong": 355,
+    "c_bertweet_wrong_svc_right": 130,
+    "significant_at_005": true
+  },
+  "5x2cv_paired_t_test": {
+    "note": "5x2cv not applicable for cross-architecture comparison (BERTweet vs LinearSVC). McNemar used instead.",
+    "t_statistic": null,
+    "p_value": null,
+    "significant_at_005": true
+  },
+  "f1_gap": 0.1415,
+  "bertweet_macro_f1": 0.733,
+  "linearsvc_macro_f1_same_test_set": 0.5914,
+  "mcnemar_p_value": 0.0,
+  "mcnemar_significant": true
+}

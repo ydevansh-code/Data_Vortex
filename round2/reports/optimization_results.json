@@ -1,0 +1,52 @@
+{
+  "model_name": "Tuned LinearSVC (Calibrated, ngram=(1,1), C=0.133)",
+  "use_negation_tagging": false,
+  "use_char_ngrams": false,
+  "class_weight": "balanced",
+  "best_search_params": {
+    "clf__C": 0.133,
+    "tfidf__max_df": 0.85,
+    "tfidf__max_features": null,
+    "tfidf__min_df": 3,
+    "tfidf__ngram_range": "(1, 1)"
+  },
+  "test_metrics": {
+    "accuracy": 0.5955696202531645,
+    "macro_f1": 0.5972042009460073,
+    "weighted_f1": 0.5956896188441488,
+    "kappa": 0.3933884496142661,
+    "mcc": 0.39390179660524577
+  },
+  "model_comparison_cv": [
+    {
+      "Model": "LogisticRegression",
+      "CV Macro-F1": "0.5794 ± 0.0134",
+      "CV Accuracy": "0.5788 ± 0.0137"
+    },
+    {
+      "Model": "CalibratedSVC",
+      "CV Macro-F1": "0.5789 ± 0.0128",
+      "CV Accuracy": "0.5780 ± 0.0133"
+    },
+    {
+      "Model": "LinearSVC + char_wb",
+      "CV Macro-F1": "0.5722 ± 0.0196",
+      "CV Accuracy": "0.5709 ± 0.0194"
+    },
+    {
+      "Model": "LinearSVC (current)",
+      "CV Macro-F1": "0.5722 ± 0.0136",
+      "CV Accuracy": "0.5714 ± 0.0138"
+    },
+    {
+      "Model": "ComplementNB",
+      "CV Macro-F1": "0.5535 ± 0.0120",
+      "CV Accuracy": "0.5568 ± 0.0122"
+    },
+    {
+      "Model": "Majority-Class Baseline",
+      "CV Macro-F1": "0.1720 ± 0.0001",
+      "CV Accuracy": "0.3478 ± 0.0004"
+    }
+  ]
+}

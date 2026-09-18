@@ -1,0 +1,42 @@
+[
+  {
+    "config_id": "A",
+    "label": "A: Champion pipeline (remove punct, split hashtags, strip mentions)",
+    "text_hash_prefix": "f1f0f5f270388822",
+    "vocab_size": 4174,
+    "macro_f1_mean": 0.5865,
+    "macro_f1_std": 0.0125
+  },
+  {
+    "config_id": "B",
+    "label": "B: Keep punctuation",
+    "text_hash_prefix": "f775106691748191",
+    "vocab_size": 4174,
+    "macro_f1_mean": 0.5865,
+    "macro_f1_std": 0.0125
+  },
+  {
+    "config_id": "C",
+    "label": "C: Keep hashtag symbol + keep punct (no split, # survives)",
+    "text_hash_prefix": "0d65c539fbe4f107",
+    "vocab_size": 4174,
+    "macro_f1_mean": 0.5865,
+    "macro_f1_std": 0.0125
+  },
+  {
+    "config_id": "D",
+    "label": "D: Retain mention token (@user)",
+    "text_hash_prefix": "db3f03a9ad3aea2d",
+    "vocab_size": 4175,
+    "macro_f1_mean": 0.5862,
+    "macro_f1_std": 0.0152
+  },
+  {
+    "config_id": "E",
+    "label": "E: Bigrams only (ngram=(2,2)) \u2014 same text as A, model variant",
+    "text_hash_prefix": "f1f0f5f270388822",
+    "vocab_size": 4174,
+    "macro_f1_mean": 0.4848,
+    "macro_f1_std": 0.0061
+  }
+]

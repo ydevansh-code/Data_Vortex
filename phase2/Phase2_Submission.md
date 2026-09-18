@@ -75,7 +75,7 @@ ORDER BY avg_total_engagement DESC;
 ```
 
 ### Output Screenshot
-![e3_avg_engagement_by_platform.jpg](./screenshots/e3_avg_engagement_by_platform.jpg)
+![e3_avg_engagement_by_platform.jpeg](./screenshots/e3_avg_engagement_by_platform.jpeg)
 
 ---
 
@@ -106,7 +106,7 @@ LIMIT 10;
 ```
 
 ### Output Screenshot
-![m1_location_engagement.jpg](./screenshots/m1_location_engagement.jpg)
+![m1_location_engagement.jpeg](./screenshots/m1_location_engagement.jpeg)
 
 ---
 
@@ -132,7 +132,7 @@ The synthetic dataset uses a bounded uniform distribution (Likes max 5000, Share
 
 **3. Literal Result**
 The literal query asking for >2x platform average correctly returns 0 rows. The query logic is completely correct, but the data itself is the constraint.
-*(Screenshot: `h3_literal_empty_result.jpg` showing 0 rows)*
+*(Screenshot: `h3_literal_empty_result.jpeg` showing 0 rows)*
 
 **4. Meaningful Answer (Relative Outperformers)**
 Since no post can reach the 2x absolute threshold, we answer the question's true intent by finding posts that most outperform their own platform. We use `PERCENT_RANK()` to dynamically identify the top 1% (99th percentile) of performers relative to their own platform.
@@ -141,9 +141,9 @@ Since no post can reach the 2x absolute threshold, we answer the question's true
 The near-uniform engagement across posts implies the platform's distribution mechanics are not producing viral outliers — which is itself a meaningful finding about a synthetic or algorithmically-flattened feed.
 
 ### Output Screenshots
-![h3_diagnostic_threshold.jpg](./screenshots/h3_diagnostic_threshold.jpg)
-![h3_literal_empty_result.jpg](./screenshots/h3_literal_empty_result.jpg)
-![h3_relative_outperformers.jpg](./screenshots/h3_relative_outperformers.jpg)
+![h3_diagnostic_threshold.jpeg](./screenshots/h3_diagnostic_threshold.jpeg)
+![h3_literal_empty_result.jpeg](./screenshots/h3_literal_empty_result.jpeg)
+![h3_relative_outperformers.jpeg](./screenshots/h3_relative_outperformers.jpeg)
 
 ---
 
@@ -232,6 +232,6 @@ SELECT 'negative_likes', COUNT(*) FROM posts WHERE likes < 0;
 | negative_likes | 509 |
 
 ### Output Screenshot
-![validation_checks.jpg](./screenshots/validation_checks.jpg)
+![validation_checks.jpeg](./screenshots/validation_checks.jpeg)
 
 *(End of Report)*

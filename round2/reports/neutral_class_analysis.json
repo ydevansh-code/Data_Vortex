@@ -1,0 +1,28 @@
+{
+  "neutral_threshold_opt": {
+    "best_threshold": 0.46,
+    "best_macro_f1": 0.5916,
+    "delta_macro_f1": -0.0056
+  },
+  "topic_confounding": {
+    "mutual_information": 0.0005,
+    "error_rates": [
+      {
+        "topic": "Account_Security",
+        "error_rate": 0.4
+      },
+      {
+        "topic": "Community_Discussion",
+        "error_rate": 0.40965618141916604
+      },
+      {
+        "topic": "Feature_Feedback",
+        "error_rate": 0.3333333333333333
+      },
+      {
+        "topic": "Technical_Issues",
+        "error_rate": 0.3828125
+      }
+    ]
+  }
+}

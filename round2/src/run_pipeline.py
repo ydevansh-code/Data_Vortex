@@ -23,6 +23,7 @@ from evaluate import (
     save_metrics_json,
 )
 from generate_report import build_report
+from generate_metrics_report import generate_pdf as build_metrics_report
 
 BANNER = """
 ╔══════════════════════════════════════════════════════════════╗
@@ -77,9 +78,10 @@ def main():
 
     # ── Generate PDF Report ────────────────────────────────
     print("\n" + "=" * 60)
-    print("  STAGE 10: GENERATING PDF REPORT")
+    print("  STAGE 10: GENERATING PDF REPORTS")
     print("=" * 60)
     pdf_path = build_report()
+    build_metrics_report()
 
     elapsed = time.time() - t_total
     print(f"\n{'=' * 60}")

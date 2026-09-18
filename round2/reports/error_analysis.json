@@ -1,0 +1,233 @@
+{
+  "per_class_taxonomy": [
+    {
+      "Class": "Negative",
+      "Support": 486,
+      "TP": 321,
+      "FP": 210,
+      "FN": 165,
+      "Precision": 0.6045,
+      "Recall": 0.6605,
+      "F1": 0.6313,
+      "AvgConf_TP": 0.5898,
+      "AvgConf_FN": 0.2733,
+      "ConfGap": 0.3166
+    },
+    {
+      "Class": "Neutral",
+      "Support": 550,
+      "TP": 291,
+      "FP": 262,
+      "FN": 259,
+      "Precision": 0.5262,
+      "Recall": 0.5291,
+      "F1": 0.5277,
+      "AvgConf_TP": 0.5462,
+      "AvgConf_FN": 0.288,
+      "ConfGap": 0.2582
+    },
+    {
+      "Class": "Positive",
+      "Support": 544,
+      "TP": 329,
+      "FP": 167,
+      "FN": 215,
+      "Precision": 0.6633,
+      "Recall": 0.6048,
+      "F1": 0.6327,
+      "AvgConf_TP": 0.6138,
+      "AvgConf_FN": 0.2807,
+      "ConfGap": 0.333
+    }
+  ],
+  "misclassification_pairs": [
+    {
+      "True → Predicted": "Positive → Neutral",
+      "Count": 155,
+      "% of Errors": 24.3,
+      "% of Class": 28.5
+    },
+    {
+      "True → Predicted": "Neutral → Negative",
+      "Count": 150,
+      "% of Errors": 23.5,
+      "% of Class": 27.3
+    },
+    {
+      "True → Predicted": "Neutral → Positive",
+      "Count": 109,
+      "% of Errors": 17.1,
+      "% of Class": 19.8
+    },
+    {
+      "True → Predicted": "Negative → Neutral",
+      "Count": 107,
+      "% of Errors": 16.7,
+      "% of Class": 22.0
+    },
+    {
+      "True → Predicted": "Positive → Negative",
+      "Count": 60,
+      "% of Errors": 9.4,
+      "% of Class": 11.0
+    },
+    {
+      "True → Predicted": "Negative → Positive",
+      "Count": 58,
+      "% of Errors": 9.1,
+      "% of Class": 11.9
+    }
+  ],
+  "top_confident_errors": [
+    {
+      "True": "Neutral",
+      "Predicted": "Positive",
+      "Confidence": 0.7903,
+      "Text": "should ve went to watch paper towns first i ll just go see it tomorrow"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Positive",
+      "Confidence": 0.7794,
+      "Text": "national hot dog day is saturday capitalgmc saturday see you there"
+    },
+    {
+      "True": "Positive",
+      "Predicted": "Neutral",
+      "Confidence": 0.7706,
+      "Text": "josh hamilton hit a two run homer in 2011 ws in the 10th with a sports hernia if anyone with any decent fielding skills "
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7689,
+      "Text": "there can be no tolerance of those who question the dignity of other people angela merkel stood up to be counted"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7647,
+      "Text": "if it weren t for christians the aztecs would never have stopped killing babies like planned parenthood does"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7636,
+      "Text": "you may not put bumpers stickers on a bentley you also don t let a shit load a people drive it either if you get my drif"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7594,
+      "Text": "every human being is born with innate tendencies towards monotheism later in life his parent may turn him to other relig"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7573,
+      "Text": "mansbridge interview with trudeau may not have been a classic but i did find justin believable and i dont feel like i ne"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.754,
+      "Text": "when kanye west told george bush that black lives matter as much as i may not like him it was the truth"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Positive",
+      "Confidence": 0.7536,
+      "Text": "rt rt if you love the song called last night on earth by green day indowantsgreenday"
+    },
+    {
+      "True": "Positive",
+      "Predicted": "Negative",
+      "Confidence": 0.7425,
+      "Text": "i wanna party with justin and get really drunk then fuck like theres no tomorrow"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7406,
+      "Text": "just remember michelle obama told barack obama she may not vote for him for senate just because she didn t want him in p"
+    },
+    {
+      "True": "Positive",
+      "Predicted": "Negative",
+      "Confidence": 0.74,
+      "Text": "she may be my favorite libertarian writer right now her response to the planned parenthood controversy was on point"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7334,
+      "Text": "it was just a man that executed a texas deputy if i may seems a black and gay man can be outed when"
+    },
+    {
+      "True": "Positive",
+      "Predicted": "Negative",
+      "Confidence": 0.7316,
+      "Text": "with this sweet and sudden u turn frin israel don t we all understand how the term doenmeah was coined in the 1st place"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.7285,
+      "Text": "northern elders ask dasuki not to go to court so as not to reveal the activities of boko haram sponsors enjoy"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Positive",
+      "Confidence": 0.7259,
+      "Text": "dj khaled hold you down ft chris brown august alsina future jeremih"
+    },
+    {
+      "True": "Negative",
+      "Predicted": "Neutral",
+      "Confidence": 0.7249,
+      "Text": "d j king suffered broken right hand in fight with krys barch oct 24 2009 stlblues vs dallas stars missed 3 months"
+    },
+    {
+      "True": "Positive",
+      "Predicted": "Negative",
+      "Confidence": 0.7242,
+      "Text": "have y all ever just sat and listened to frank ocean s crack rock the shit is mad deep"
+    },
+    {
+      "True": "Neutral",
+      "Predicted": "Negative",
+      "Confidence": 0.719,
+      "Text": "with the federal budget deal signed into law people 70 may be able to make large charitable gifts from an ira"
+    }
+  ],
+  "multi_seed_stability": {
+    "seeds": [
+      0,
+      7,
+      13,
+      21,
+      42,
+      99,
+      123,
+      256,
+      314,
+      999
+    ],
+    "f1_per_seed": [
+      0.604396,
+      0.602461,
+      0.601749,
+      0.584863,
+      0.597204,
+      0.602312,
+      0.58481,
+      0.594777,
+      0.607602,
+      0.574182
+    ],
+    "mean": 0.595436,
+    "std": 0.010221,
+    "min": 0.574182,
+    "max": 0.607602
+  }
+}

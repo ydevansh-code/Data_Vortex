@@ -1,0 +1,10 @@
+{
+  "model": "vinai/bertweet-base",
+  "split": "70_10_20_clean_dedup",
+  "macro_f1": 0.732955,
+  "accuracy": 0.733544,
+  "kappa": 0.60146,
+  "test_size": 1580,
+  "train_size": 5530,
+  "val_size": 790
+}
