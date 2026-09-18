@@ -159,13 +159,20 @@ def generate_pdf():
         ]
         cw3 = [45, 70, 70]
         pdf.set_font("Helvetica", "B", 10)
-        for h, w in zip(["Metric", "Linear SVM (Local)", "BERTweet (Colab GPU)"], cw3):
-            pdf.cell(w, 8, h, border=1, align="C")
+        pdf.cell(cw3[0], 8, "Metric", border=1, align="C")
+        pdf.cell(cw3[1], 8, f"Local Model ({model_name})", border=1, align="C")
+        pdf.set_fill_color(220, 240, 255)
+        pdf.cell(cw3[2], 8, "BERTweet (Colab GPU)", border=1, align="C", fill=True)
         pdf.ln(8)
-        pdf.set_font("Helvetica", "", 10)
+        
         for r in comp_rows:
-            for v, w in zip(r, cw3):
-                pdf.cell(w, 8, str(v), border=1, align="C")
+            pdf.set_font("Helvetica", "B", 10)
+            pdf.cell(cw3[0], 8, str(r[0]), border=1, align="C")
+            pdf.set_font("Helvetica", "", 10)
+            pdf.cell(cw3[1], 8, str(r[1]), border=1, align="C")
+            pdf.set_font("Helvetica", "B", 10)
+            pdf.set_fill_color(240, 248, 255)
+            pdf.cell(cw3[2], 8, str(r[2]), border=1, align="C", fill=True)
             pdf.ln(8)
 
     cm_path = os.path.join(FIGURES_DIR, "confusion_matrix.png")
@@ -181,8 +188,13 @@ def generate_pdf():
         pdf.cell(0, 10, "5. Per-Class Metrics (Visualized)", ln=True)
         pdf.image(per_class_path, w=150)
 
-    pdf.output(OUTPUT_PDF)
-    print(f"Metrics report saved: {OUTPUT_PDF}")
+    try:
+        pdf.output(OUTPUT_PDF)
+        print(f"Metrics report saved: {OUTPUT_PDF}")
+    except PermissionError:
+        alt_pdf = OUTPUT_PDF.replace(".pdf", "_v2.pdf")
+        pdf.output(alt_pdf)
+        print(f"Metrics report saved: {alt_pdf} (Original was locked)")
 
 if __name__ == "__main__":
     generate_pdf()
