@@ -76,6 +76,36 @@ def generate_pdf():
         pdf.cell(col_w[1], 8, sec, border=1)
         pdf.ln(8)
 
+    bt = None
+    if os.path.exists(_BT_BENCH_NEW):
+        try:
+            with open(_BT_BENCH_NEW, "r") as f:
+                bt = json.load(f)
+        except Exception:
+            pass
+    elif os.path.exists(_BT_BENCH_OLD):
+        try:
+            with open(_BT_BENCH_OLD, "r") as f:
+                bt = json.load(f)
+        except Exception:
+            pass
+
+    bt_w_f1 = bt_m_prec = bt_m_rec = None
+    if bt is not None:
+        csv_path_new = os.path.join(os.path.dirname(__file__), "..", "benchmarks", "bertweet", "bertweet_predictions.csv")
+        csv_path_old = os.path.join(REPORTS_DIR, "bertweet_predictions.csv")
+        csv_path = csv_path_new if os.path.exists(csv_path_new) else (csv_path_old if os.path.exists(csv_path_old) else None)
+        if csv_path:
+            import pandas as pd
+            from sklearn.metrics import f1_score, precision_score, recall_score
+            try:
+                bt_df = pd.read_csv(csv_path)
+                bt_w_f1 = f1_score(bt_df["y_true"], bt_df["y_pred"], average="weighted")
+                bt_m_prec = precision_score(bt_df["y_true"], bt_df["y_pred"], average="macro", zero_division=0)
+                bt_m_rec = recall_score(bt_df["y_true"], bt_df["y_pred"], average="macro", zero_division=0)
+            except Exception:
+                pass
+
     pdf.add_page()
     pdf.set_font("Helvetica", "B", 12)
     pdf.cell(0, 10, "1. Overall Performance Metrics", ln=True)
@@ -85,8 +115,12 @@ def generate_pdf():
     accuracy   = metrics.get("accuracy", 0)
     macro_f1   = metrics.get("macro_f1", 0)
     w_f1       = metrics.get("weighted_f1", 0)
-    m_prec     = metrics.get("macro_precision", cr.get("macro avg", {}).get("precision", 0))
-    m_rec      = metrics.get("macro_recall", cr.get("macro avg", {}).get("recall", 0))
+    
+    # Check if 'macro avg' exists for precision and recall fallback
+    per_class = metrics.get("per_class", {})
+    m_prec     = metrics.get("macro_precision", per_class.get("macro avg", {}).get("precision", 0))
+    m_rec      = metrics.get("macro_recall", per_class.get("macro avg", {}).get("recall", 0))
+    
     bl_acc     = metrics.get("baseline_accuracy", 0)
     bl_f1      = metrics.get("baseline_macro_f1", 0)
 
@@ -94,9 +128,9 @@ def generate_pdf():
         ("Model", model_name, bt.get("model", "N/A") if bt else "N/A"),
         ("Test Accuracy", f"{accuracy:.4f} (baseline: {bl_acc:.4f})", f"{bt.get('accuracy', 0):.4f}" if bt else "N/A"),
         ("Macro-F1", f"{macro_f1:.4f} (baseline: {bl_f1:.4f})", f"{bt.get('macro_f1', 0):.4f}" if bt else "N/A"),
-        ("Weighted-F1", f"{w_f1:.4f}", "N/A"),
-        ("Macro Precision", f"{m_prec:.4f}", "N/A"),
-        ("Macro Recall", f"{m_rec:.4f}", "N/A"),
+        ("Weighted-F1", f"{w_f1:.4f}", f"{bt_w_f1:.4f}" if bt_w_f1 is not None else "N/A"),
+        ("Macro Precision", f"{m_prec:.4f}", f"{bt_m_prec:.4f}" if bt_m_prec is not None else "N/A"),
+        ("Macro Recall", f"{m_rec:.4f}", f"{bt_m_rec:.4f}" if bt_m_rec is not None else "N/A"),
         ("Cohen's Kappa", "N/A", f"{bt.get('kappa', 0):.4f}" if bt else "N/A"),
     ]
     
@@ -199,13 +233,19 @@ def generate_pdf():
         pdf.cell(0, 10, "5. Per-Class Metrics (Visualized)", ln=True)
         pdf.image(per_class_path, w=150)
 
-    try:
-        pdf.output(OUTPUT_PDF)
-        print(f"Metrics report saved: {OUTPUT_PDF}")
-    except PermissionError:
-        alt_pdf = OUTPUT_PDF.replace(".pdf", "_v2.pdf")
-        pdf.output(alt_pdf)
-        print(f"Metrics report saved: {alt_pdf} (Original was locked)")
+    success = False
+    for i in range(1, 10):
+        try:
+            curr_pdf = OUTPUT_PDF if i == 1 else OUTPUT_PDF.replace(".pdf", f"_v{i}.pdf")
+            pdf.output(curr_pdf)
+            print(f"Metrics report saved: {curr_pdf}")
+            success = True
+            break
+        except PermissionError:
+            pass
+            
+    if not success:
+        print("Error: Could not save the PDF because all possible filenames are locked by another program.")
 
 if __name__ == "__main__":
     generate_pdf()
