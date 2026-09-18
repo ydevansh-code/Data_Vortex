@@ -94,9 +94,10 @@ class ReportPDF(FPDF):
 
     def img(self, path):
         if os.path.exists(path):
-            self.ln(4)
-            self.image(path, x=(210-170)/2, w=170)
-            self.ln(4)
+            self.ln(2)
+            w = 110
+            self.image(path, x=(210-w)/2, w=w)
+            self.ln(2)
 
 pdf = ReportPDF()
 pdf.add_page()
@@ -162,5 +163,9 @@ for line in lines:
     else:
         pdf.body(line)
 
-pdf.output('round2/reports/Round2_Technical_Report.pdf')
-print("Saved to round2/reports/Round2_Technical_Report.pdf")
+try:
+    pdf.output('round2/reports/Round2_Technical_Report.pdf')
+    print("Saved to round2/reports/Round2_Technical_Report.pdf")
+except PermissionError:
+    pdf.output('round2/reports/Round2_Technical_Report_v2.pdf')
+    print("Saved to round2/reports/Round2_Technical_Report_v2.pdf (Original was locked)")
