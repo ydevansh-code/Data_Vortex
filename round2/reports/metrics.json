@@ -1,44 +1,44 @@
 {
-  "model": "Linear SVM",
-  "accuracy": 0.5911392405063292,
-  "macro_f1": 0.5914297157182914,
-  "weighted_f1": 0.5892346535862891,
-  "macro_precision": 0.5919267100629307,
-  "macro_recall": 0.5954283759893783,
-  "baseline_accuracy": 0.3481,
-  "baseline_macro_f1": 0.1721,
-  "lift_accuracy": 0.243,
-  "lift_macro_f1": 0.4193,
+  "model": "Logistic Regression",
+  "accuracy": 0.5993670886075949,
+  "macro_f1": 0.6005227765124935,
+  "weighted_f1": 0.5988978589471009,
+  "macro_precision": 0.6028295009156924,
+  "macro_recall": 0.6029081116172619,
+  "baseline_accuracy": 0.3478,
+  "baseline_macro_f1": 0.172,
+  "lift_accuracy": 0.2516,
+  "lift_macro_f1": 0.4285,
   "per_class": {
     "Negative": {
-      "precision": 0.5930434782608696,
-      "recall": 0.7016460905349794,
-      "f1-score": 0.6427898209236569,
+      "precision": 0.5915492957746479,
+      "recall": 0.691358024691358,
+      "f1-score": 0.6375711574952562,
       "support": 486.0
     },
     "Neutral": {
-      "precision": 0.5282651072124757,
-      "recall": 0.49272727272727274,
-      "f1-score": 0.5098777046095955,
+      "precision": 0.536178107606679,
+      "recall": 0.5254545454545455,
+      "f1-score": 0.5307621671258035,
       "support": 550.0
     },
     "Positive": {
-      "precision": 0.6544715447154471,
+      "precision": 0.6807610993657506,
       "recall": 0.5919117647058824,
-      "f1-score": 0.6216216216216216,
+      "f1-score": 0.6332350049164208,
       "support": 544.0
     },
-    "accuracy": 0.5911392405063292,
+    "accuracy": 0.5993670886075949,
     "macro avg": {
-      "precision": 0.5919267100629307,
-      "recall": 0.5954283759893783,
-      "f1-score": 0.5914297157182914,
+      "precision": 0.6028295009156924,
+      "recall": 0.6029081116172619,
+      "f1-score": 0.6005227765124935,
       "support": 1580.0
     },
     "weighted avg": {
-      "precision": 0.5916439618524351,
-      "recall": 0.5911392405063292,
-      "f1-score": 0.5892346535862891,
+      "precision": 0.6029904778386839,
+      "recall": 0.5993670886075949,
+      "f1-score": 0.5988978589471009,
       "support": 1580.0
     }
   },
@@ -51,23 +51,23 @@
       "top_features": [
         [
           "shit",
-          0.08107167313178253
+          0.1987757594743901
         ],
         [
           "sorry",
-          0.05916254714147083
+          0.14027451157474727
         ],
         [
-          "time",
-          -0.03328226264732173
+          "now",
+          0.04945085807912898
         ],
         [
-          "aunt",
-          -0.02894252987489976
+          "Kpop",
+          -0.047812725291861424
         ],
         [
-          "but",
-          0.026134981321965213
+          "my",
+          0.03692976715845427
         ]
       ]
     },
@@ -79,40 +79,28 @@
       "top_features": [
         [
           "user",
-          -0.06685984241460209
+          -0.14649984685987189
         ],
         [
           "SCOTUS",
-          0.0421756270581071
+          0.09992489991346656
         ],
         [
           "Amendment",
-          0.040577866997471915
+          0.07991196858505199
         ],
         [
           "14th",
-          0.03573001025627901
+          0.060027898850207
         ],
         [
-          "this",
-          0.024554455768404503
+          "could",
+          0.057255505196993225
         ]
       ]
     }
   ],
   "error_analysis_sample": [
-    {
-      "Text Snippet": "I wonder if by that time Briana finally had the baby",
-      "True Label": "Neutral",
-      "Predicted": "Negative",
-      "Error Category": "Weak negative signal misread as Neutral"
-    },
-    {
-      "Text Snippet": "Rick stein Saturday kitchen quote fishing is by far the worlds most dangerous job haha #th...",
-      "True Label": "Negative",
-      "Predicted": "Positive",
-      "Error Category": "Missed negation / sarcasm"
-    },
     {
       "Text Snippet": "\"Rodgers just confirmed that both Allen and Can are fit, and will be back in the squad for...",
       "True Label": "Positive",
@@ -120,16 +108,28 @@
       "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
     },
     {
-      "Text Snippet": "Not a great start for the amateur Paul Dunne. Imagine having to compose yourself to hit yo...",
-      "True Label": "Negative",
-      "Predicted": "Positive",
-      "Error Category": "Negation handling failure"
+      "Text Snippet": "\"He then said \"\"Kendrick Lamar will be the a huge rapper\"\". He may be a genius\"",
+      "True Label": "Positive",
+      "Predicted": "Negative",
+      "Error Category": "Overly negative framing detected"
     },
     {
-      "Text Snippet": "\"With the federal budget deal signed into law, people 70+ may be able to make large charit...",
+      "Text Snippet": "Sending troops to Iraq may be a dangerous game for Turkey: Ankara's dispute with the feder...",
       "True Label": "Neutral",
       "Predicted": "Negative",
       "Error Category": "Weak negative signal misread as Neutral"
+    },
+    {
+      "Text Snippet": "@user headlines are that Murray lose to an UNKNOWN Anderson. The guy is ranked 14th in the...",
+      "True Label": "Neutral",
+      "Predicted": "Negative",
+      "Error Category": "Weak negative signal misread as Neutral"
+    },
+    {
+      "Text Snippet": "Holy shit. Rebecca black donated all her earnings from Friday to help the Japan Earthquake...",
+      "True Label": "Positive",
+      "Predicted": "Negative",
+      "Error Category": "Overly negative framing detected"
     },
     {
       "Text Snippet": "Just remember Michelle Obama told Barack Obama she may not vote for him for senate just be...",
@@ -138,13 +138,13 @@
       "Error Category": "Negation handling failure"
     },
     {
-      "Text Snippet": "\"Carlo Ancelotti: Isco is a very important player. Tomorrow, James Rodriguez will start - ...",
-      "True Label": "Neutral",
-      "Predicted": "Positive",
-      "Error Category": "Weak positive signal misread as Neutral"
+      "Text Snippet": "\"Obama signed a law TODAY making gifts of up to $100,000 from an IRA tax-free again. If yo...",
+      "True Label": "Positive",
+      "Predicted": "Negative",
+      "Error Category": "Overly negative framing detected"
     },
     {
-      "Text Snippet": "#day #God #known #Sunday #week Question and Answer #prayer #church\"",
+      "Text Snippet": "#HelloKarachi #EidMubarak Which #Food would you prefer to eat on Eid 3rd Day?",
       "True Label": "Neutral",
       "Predicted": "Positive",
       "Error Category": "Weak positive signal misread as Neutral"
@@ -156,28 +156,28 @@
       "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
     },
     {
-      "Text Snippet": "\"TONIGHT (FRIDAY!) AT UPTOWN BILL'S COFFEE HOUSE 7 pm. Victorian Christmas Concert with Cu...",
-      "True Label": "Positive",
-      "Predicted": "Neutral",
-      "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
+      "Text Snippet": "Sunday morning up at the lark a think I'll take a bomb to Hyde park hey hey hey it's the I...",
+      "True Label": "Negative",
+      "Predicted": "Positive",
+      "Error Category": "Missed negation / sarcasm"
     },
     {
-      "Text Snippet": "Alan rickman reading return of the native- perfect Sunday listening #bliss",
-      "True Label": "Positive",
-      "Predicted": "Neutral",
-      "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
-    },
-    {
-      "Text Snippet": "@user @user HELP!! Bobby Jindal has just doomed Louisana.",
+      "Text Snippet": "\"This #GOP race is seriously getting out of hand. Who in the blue heck is John Kasich? Or ...",
       "True Label": "Negative",
       "Predicted": "Neutral",
       "Error Category": "Ambiguous boundary (Negative ≈ Neutral)"
     },
     {
-      "Text Snippet": "Cannot believe I've just downloaded an avenged sevenfold track to play alongside mariah Ca...",
+      "Text Snippet": "I am looking for to the release of Go Set a Watchman tomorrow by Harper Lee . I am NOT hap...",
       "True Label": "Neutral",
       "Predicted": "Positive",
       "Error Category": "Negation handling failure"
+    },
+    {
+      "Text Snippet": "@user I see a bit of Christian in him\\u002c at 1st I wnt him for the role until I saw Matt...",
+      "True Label": "Positive",
+      "Predicted": "Neutral",
+      "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
     },
     {
       "Text Snippet": "\"\\\"\"\"\"@Peter_Owen1: Bulls season tips off Wednesday night vs Sacramento Kings. Excited is ...",
@@ -186,40 +186,40 @@
       "Error Category": "Negation handling failure"
     },
     {
-      "Text Snippet": "When Amy schumer is friends with ur 2nd grade teacher &amp; updates u on her life (she tau...",
+      "Text Snippet": "@user @user LeBlanc was nominated for an Emmy and won a Golden Globe\\u002c so that may hav...",
       "True Label": "Neutral",
       "Predicted": "Negative",
       "Error Category": "Weak negative signal misread as Neutral"
     },
     {
-      "Text Snippet": "Sorry but on September 12 I will be watching the Oklahoma Tennessee game not Floyd Mayweat...",
+      "Text Snippet": "@user yeah. I've always said Milan is being run as if it was a 3rd world country. Can't sa...",
       "True Label": "Negative",
-      "Predicted": "Neutral",
+      "Predicted": "Positive",
       "Error Category": "Negation handling failure"
     },
     {
-      "Text Snippet": "@user please stop by Cincinnati fire engine 3 at 329 east 9th after your show! Everyday At...",
-      "True Label": "Positive",
-      "Predicted": "Neutral",
-      "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
-    },
-    {
-      "Text Snippet": "Soccer Saturday with our son. They\\u2019re playing the hardest team in the league. Then th...",
-      "True Label": "Positive",
-      "Predicted": "Neutral",
-      "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
-    },
-    {
-      "Text Snippet": "When you feel like Zayn is going to follow you soon and end of the day you're like well ma...",
+      "Text Snippet": "\"Aaron Rodgers: good in the 4th Qtr, but too cautious overall?",
       "True Label": "Neutral",
       "Predicted": "Positive",
       "Error Category": "Weak positive signal misread as Neutral"
     },
     {
-      "Text Snippet": "Shooting Tvshow Sons of Anarchy at my studio today. They closed off all the streets for a ...",
+      "Text Snippet": "Get your sweat suits! It\\u2019s November and its time to lax! Practice tonight\\u002c game ...",
       "True Label": "Positive",
-      "Predicted": "Negative",
-      "Error Category": "Overly negative framing detected"
+      "Predicted": "Neutral",
+      "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
+    },
+    {
+      "Text Snippet": "@user I'm thinking Dustin Johnson should get the 4th spot in the #GrandSlamofGolf",
+      "True Label": "Positive",
+      "Predicted": "Neutral",
+      "Error Category": "Ambiguous boundary (Positive ≈ Neutral)"
+    },
+    {
+      "Text Snippet": "\"if Twilight wins all the awards at the TCA's tonight, I will burn my Twilight posters k? ...",
+      "True Label": "Negative",
+      "Predicted": "Positive",
+      "Error Category": "Missed negation / sarcasm"
     }
   ]
 }

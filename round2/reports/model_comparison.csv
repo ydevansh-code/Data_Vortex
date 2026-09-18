@@ -1,5 +1,5 @@
 Model,Accuracy,Macro-F1,Weighted-F1,Macro-Precision,Macro-Recall,Train Time (s)
-Linear SVM,0.5899,0.5905,0.5884,0.5899,0.5935,0.34
-Logistic Regression,0.588,0.5884,0.5866,0.5894,0.5918,0.45
-Multinomial Naive Bayes,0.5741,0.5736,0.5714,0.5724,0.5767,0.26
-Majority-Class Baseline,0.3481,0.1721,0.1798,0.116,0.3333,0.09
+Logistic Regression,0.5788,0.5794,0.5779,0.5791,0.5814,4.77
+Linear SVM,0.5714,0.5722,0.5707,0.5719,0.5732,4.42
+Multinomial Naive Bayes,0.5601,0.5596,0.5583,0.5635,0.5605,3.89
+Majority-Class Baseline,0.3478,0.172,0.1795,0.1159,0.3333,2.99

@@ -1,21 +1,21 @@
 Text Snippet,True Label,Predicted,Error Category
-I wonder if by that time Briana finally had the baby,Neutral,Negative,Weak negative signal misread as Neutral
-Rick stein Saturday kitchen quote fishing is by far the worlds most dangerous job haha #th...,Negative,Positive,Missed negation / sarcasm
 """Rodgers just confirmed that both Allen and Can are fit, and will be back in the squad for...",Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
-Not a great start for the amateur Paul Dunne. Imagine having to compose yourself to hit yo...,Negative,Positive,Negation handling failure
-"""With the federal budget deal signed into law, people 70+ may be able to make large charit...",Neutral,Negative,Weak negative signal misread as Neutral
+"""He then said """"Kendrick Lamar will be the a huge rapper"""". He may be a genius""",Positive,Negative,Overly negative framing detected
+Sending troops to Iraq may be a dangerous game for Turkey: Ankara's dispute with the feder...,Neutral,Negative,Weak negative signal misread as Neutral
+@user headlines are that Murray lose to an UNKNOWN Anderson. The guy is ranked 14th in the...,Neutral,Negative,Weak negative signal misread as Neutral
+Holy shit. Rebecca black donated all her earnings from Friday to help the Japan Earthquake...,Positive,Negative,Overly negative framing detected
 Just remember Michelle Obama told Barack Obama she may not vote for him for senate just be...,Neutral,Negative,Negation handling failure
-"""Carlo Ancelotti: Isco is a very important player. Tomorrow, James Rodriguez will start - ...",Neutral,Positive,Weak positive signal misread as Neutral
-"#day #God #known #Sunday #week Question and Answer #prayer #church""",Neutral,Positive,Weak positive signal misread as Neutral
+"""Obama signed a law TODAY making gifts of up to $100,000 from an IRA tax-free again. If yo...",Positive,Negative,Overly negative framing detected
+#HelloKarachi #EidMubarak Which #Food would you prefer to eat on Eid 3rd Day?,Neutral,Positive,Weak positive signal misread as Neutral
 @user oh snap. You guys know who @user is? I'll have to meet the Big Brother fan who runs ...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
-"""TONIGHT (FRIDAY!) AT UPTOWN BILL'S COFFEE HOUSE 7 pm. Victorian Christmas Concert with Cu...",Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
-Alan rickman reading return of the native- perfect Sunday listening #bliss,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
-@user @user HELP!! Bobby Jindal has just doomed Louisana.,Negative,Neutral,Ambiguous boundary (Negative ≈ Neutral)
-Cannot believe I've just downloaded an avenged sevenfold track to play alongside mariah Ca...,Neutral,Positive,Negation handling failure
+Sunday morning up at the lark a think I'll take a bomb to Hyde park hey hey hey it's the I...,Negative,Positive,Missed negation / sarcasm
+"""This #GOP race is seriously getting out of hand. Who in the blue heck is John Kasich? Or ...",Negative,Neutral,Ambiguous boundary (Negative ≈ Neutral)
+I am looking for to the release of Go Set a Watchman tomorrow by Harper Lee . I am NOT hap...,Neutral,Positive,Negation handling failure
+@user I see a bit of Christian in him\u002c at 1st I wnt him for the role until I saw Matt...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
 """\""""""""@Peter_Owen1: Bulls season tips off Wednesday night vs Sacramento Kings. Excited is ...",Negative,Positive,Negation handling failure
-When Amy schumer is friends with ur 2nd grade teacher &amp; updates u on her life (she tau...,Neutral,Negative,Weak negative signal misread as Neutral
-Sorry but on September 12 I will be watching the Oklahoma Tennessee game not Floyd Mayweat...,Negative,Neutral,Negation handling failure
-@user please stop by Cincinnati fire engine 3 at 329 east 9th after your show! Everyday At...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
-Soccer Saturday with our son. They\u2019re playing the hardest team in the league. Then th...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
-When you feel like Zayn is going to follow you soon and end of the day you're like well ma...,Neutral,Positive,Weak positive signal misread as Neutral
-Shooting Tvshow Sons of Anarchy at my studio today. They closed off all the streets for a ...,Positive,Negative,Overly negative framing detected
+@user @user LeBlanc was nominated for an Emmy and won a Golden Globe\u002c so that may hav...,Neutral,Negative,Weak negative signal misread as Neutral
+@user yeah. I've always said Milan is being run as if it was a 3rd world country. Can't sa...,Negative,Positive,Negation handling failure
+"""Aaron Rodgers: good in the 4th Qtr, but too cautious overall?",Neutral,Positive,Weak positive signal misread as Neutral
+Get your sweat suits! It\u2019s November and its time to lax! Practice tonight\u002c game ...,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+@user I'm thinking Dustin Johnson should get the 4th spot in the #GrandSlamofGolf,Positive,Neutral,Ambiguous boundary (Positive ≈ Neutral)
+"""if Twilight wins all the awards at the TCA's tonight, I will burn my Twilight posters k? ...",Negative,Positive,Missed negation / sarcasm

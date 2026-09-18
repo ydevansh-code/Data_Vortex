@@ -25,7 +25,7 @@ from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV, StratifiedKFold, cross_validate
 from sklearn.metrics import (
     accuracy_score, classification_report,
     confusion_matrix, f1_score, precision_score, recall_score,
@@ -89,25 +89,31 @@ def build_candidates() -> dict:
 # Model Comparison
 # ──────────────────────────────────────────────
 
-def run_model_comparison(X_train, X_test, y_train, y_test) -> tuple[pd.DataFrame, str]:
+def run_model_comparison(X_train, y_train) -> tuple[pd.DataFrame, str]:
     candidates = build_candidates()
     results = []
 
     print("\n" + "=" * 60)
-    print("  STAGE 5: MODEL CANDIDATE COMPARISON")
+    print("  STAGE 5: MODEL CANDIDATE COMPARISON (5-Fold CV on Train)")
     print("=" * 60)
+
+    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
 
     for name, pipeline in candidates.items():
         t0 = time.time()
-        pipeline.fit(X_train, y_train)
+        
+        scores = cross_validate(
+            pipeline, X_train, y_train, cv=skf, 
+            scoring=('accuracy', 'f1_macro', 'f1_weighted', 'precision_macro', 'recall_macro'),
+            n_jobs=-1
+        )
         train_time = time.time() - t0
 
-        y_pred = pipeline.predict(X_test)
-        acc = accuracy_score(y_test, y_pred)
-        macro_f1 = f1_score(y_test, y_pred, average="macro", zero_division=0)
-        weighted_f1 = f1_score(y_test, y_pred, average="weighted", zero_division=0)
-        macro_prec = precision_score(y_test, y_pred, average="macro", zero_division=0)
-        macro_rec = recall_score(y_test, y_pred, average="macro", zero_division=0)
+        acc = scores['test_accuracy'].mean()
+        macro_f1 = scores['test_f1_macro'].mean()
+        weighted_f1 = scores['test_f1_weighted'].mean()
+        macro_prec = scores['test_precision_macro'].mean()
+        macro_rec = scores['test_recall_macro'].mean()
 
         results.append({
             "Model": name,
@@ -247,7 +253,7 @@ def plot_model_comparison(df_results: pd.DataFrame):
     ax.set_xticks(x)
     ax.set_xticklabels(models, color="white", fontsize=9, rotation=10, ha="right")
     ax.set_ylabel("Score", color="#aaa", fontsize=10)
-    ax.set_title("Model Candidate Comparison (Test Set)", color="white", fontsize=13, fontweight="bold", pad=12)
+    ax.set_title("Model Candidate Comparison (5-Fold CV on Train)", color="white", fontsize=13, fontweight="bold", pad=12)
     ax.tick_params(colors="white")
     ax.spines[:].set_color("#333")
     ax.set_ylim(0, 1.0)
@@ -264,9 +270,9 @@ def plot_model_comparison(df_results: pd.DataFrame):
 # Main
 # ──────────────────────────────────────────────
 
-def run_training(X_train, X_test, y_train, y_test) -> dict:
+def run_training(X_train, y_train) -> dict:
     df_results, winner_name, trained_candidates = run_model_comparison(
-        X_train, X_test, y_train, y_test
+        X_train, y_train
     )
     plot_model_comparison(df_results)
 

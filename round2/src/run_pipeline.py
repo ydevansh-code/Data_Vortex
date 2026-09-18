@@ -47,7 +47,7 @@ def main():
     raw_test = prep["raw_test"]
 
     # ── Stage 5-6: Training & Comparison ──────────────────
-    train_out = run_training(X_train, X_test, y_train, y_test)
+    train_out = run_training(X_train, y_train)
     best_model   = train_out["best_model"]
     winner_name  = train_out["winner_name"]
     df_cmp       = train_out["comparison_df"]
