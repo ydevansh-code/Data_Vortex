@@ -91,22 +91,33 @@ def generate_pdf():
     bl_f1      = metrics.get("baseline_macro_f1", 0)
 
     rows = [
-        ("Model", model_name),
-        ("Test Accuracy", f"{accuracy:.4f}  (baseline: {bl_acc:.4f}  |  lift: +{accuracy-bl_acc:.4f})"),
-        ("Macro-F1", f"{macro_f1:.4f}  (baseline: {bl_f1:.4f}  |  lift: +{macro_f1-bl_f1:.4f})"),
-        ("Weighted-F1", f"{w_f1:.4f}"),
-        ("Macro Precision", f"{m_prec:.4f}"),
-        ("Macro Recall", f"{m_rec:.4f}"),
+        ("Model", model_name, bt.get("model", "N/A") if bt else "N/A"),
+        ("Test Accuracy", f"{accuracy:.4f} (baseline: {bl_acc:.4f})", f"{bt.get('accuracy', 0):.4f}" if bt else "N/A"),
+        ("Macro-F1", f"{macro_f1:.4f} (baseline: {bl_f1:.4f})", f"{bt.get('macro_f1', 0):.4f}" if bt else "N/A"),
+        ("Weighted-F1", f"{w_f1:.4f}", "N/A"),
+        ("Macro Precision", f"{m_prec:.4f}", "N/A"),
+        ("Macro Recall", f"{m_rec:.4f}", "N/A"),
+        ("Cohen's Kappa", "N/A", f"{bt.get('kappa', 0):.4f}" if bt else "N/A"),
     ]
-    lw, vw = 55, 115
+    
+    lw, vw, bw = 40, 65, 65
     pdf.set_font("Helvetica", "B", 10)
-    pdf.cell(lw, 8, "Metric", border=1)
-    pdf.cell(vw, 8, "Value", border=1)
+    pdf.cell(lw, 8, "Metric", border=1, align="C")
+    pdf.cell(vw, 8, "Local Model", border=1, align="C")
+    pdf.set_fill_color(220, 240, 255)
+    pdf.cell(bw, 8, "BERTweet (Colab GPU)", border=1, align="C", fill=True)
     pdf.ln(8)
-    pdf.set_font("Helvetica", "", 10)
-    for label, val in rows:
-        pdf.cell(lw, 8, label, border=1)
-        pdf.cell(vw, 8, str(val), border=1)
+    
+    for label, val_local, val_bt in rows:
+        pdf.set_font("Helvetica", "B", 10)
+        pdf.cell(lw, 8, label, border=1, align="C")
+        
+        pdf.set_font("Helvetica", "", 10)
+        pdf.cell(vw, 8, str(val_local), border=1, align="C")
+        
+        pdf.set_font("Helvetica", "B", 10)
+        pdf.set_fill_color(240, 248, 255)
+        pdf.cell(bw, 8, str(val_bt), border=1, align="C", fill=True)
         pdf.ln(8)
 
     pdf.ln(6)
