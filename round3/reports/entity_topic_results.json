@@ -1,0 +1,4728 @@
+{
+  "global_top_entities": [
+    [
+      "whatsapp",
+      5525
+    ],
+    [
+      "signal",
+      4871
+    ],
+    [
+      "telegram",
+      4036
+    ],
+    [
+      "google",
+      385
+    ],
+    [
+      "apple",
+      373
+    ],
+    [
+      "android",
+      312
+    ],
+    [
+      "india",
+      282
+    ],
+    [
+      "twitter",
+      212
+    ],
+    [
+      "instagram",
+      125
+    ],
+    [
+      "discord",
+      116
+    ],
+    [
+      "slack",
+      114
+    ],
+    [
+      "messenger",
+      106
+    ],
+    [
+      "parler",
+      104
+    ],
+    [
+      "api",
+      99
+    ]
+  ],
+  "buckets": {
+    "2020-10-26/2020-11-01": {
+      "n_posts": 10,
+      "trending_terms": [
+        [
+          "bagus",
+          2.2993
+        ],
+        [
+          "lagi",
+          2.2993
+        ],
+        [
+          "lebih",
+          2.2993
+        ],
+        [
+          "story",
+          2.2993
+        ],
+        [
+          "update",
+          2.2993
+        ],
+        [
+          "data",
+          2.0116
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          2
+        ],
+        [
+          "vc",
+          1
+        ],
+        [
+          "iso ki",
+          1
+        ],
+        [
+          "lebih",
+          1
+        ],
+        [
+          "lagi tambahin",
+          1
+        ],
+        [
+          "dari pada whatsapp",
+          1
+        ],
+        [
+          "plis update lagi supaya bisa bikin story!!!!kalo ada fiks",
+          1
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 5,
+        "Neutral": 4,
+        "Positive": 1
+      }
+    },
+    "2020-11-02/2020-11-08": {
+      "n_posts": 80,
+      "trending_terms": [
+        [
+          "action",
+          4.2958
+        ],
+        [
+          "actions",
+          4.2958
+        ],
+        [
+          "actually",
+          4.2958
+        ],
+        [
+          "ada status",
+          4.2958
+        ],
+        [
+          "added",
+          4.2958
+        ],
+        [
+          "additional",
+          4.2958
+        ],
+        [
+          "aku",
+          4.2958
+        ],
+        [
+          "aplikasi ini",
+          4.2958
+        ],
+        [
+          "aplikasi perpesanan",
+          4.2958
+        ],
+        [
+          "bakal",
+          4.2958
+        ],
+        [
+          "bales",
+          4.2958
+        ],
+        [
+          "better",
+          4.2958
+        ],
+        [
+          "big",
+          4.2958
+        ],
+        [
+          "bot",
+          4.2958
+        ],
+        [
+          "browser",
+          4.2958
+        ],
+        [
+          "buat bikin",
+          4.2958
+        ],
+        [
+          "charging",
+          4.2958
+        ],
+        [
+          "chats",
+          4.2958
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          23
+        ],
+        [
+          "telegram",
+          5
+        ],
+        [
+          "the council of ministers",
+          5
+        ],
+        [
+          "lebih",
+          4
+        ],
+        [
+          "eu",
+          4
+        ],
+        [
+          "council",
+          4
+        ],
+        [
+          "pdf",
+          3
+        ],
+        [
+          "the eu council of ministers",
+          3
+        ],
+        [
+          "signal",
+          3
+        ],
+        [
+          "ada",
+          2
+        ],
+        [
+          "nama",
+          2
+        ],
+        [
+          "ada vitur",
+          2
+        ],
+        [
+          "kalah",
+          2
+        ],
+        [
+          "google",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 43,
+        "Neutral": 26,
+        "Positive": 11
+      }
+    },
+    "2020-11-09/2020-11-15": {
+      "n_posts": 58,
+      "trending_terms": [
+        [
+          "access",
+          3.9789
+        ],
+        [
+          "account",
+          3.9789
+        ],
+        [
+          "ada fitur",
+          3.9789
+        ],
+        [
+          "adding",
+          3.9789
+        ],
+        [
+          "ago",
+          3.9789
+        ],
+        [
+          "agree",
+          3.9789
+        ],
+        [
+          "allows",
+          3.9789
+        ],
+        [
+          "average",
+          3.9789
+        ],
+        [
+          "bad",
+          3.9789
+        ],
+        [
+          "banyak",
+          3.9789
+        ],
+        [
+          "banyak yg",
+          3.9789
+        ],
+        [
+          "based",
+          3.9789
+        ],
+        [
+          "big",
+          3.9789
+        ],
+        [
+          "bit",
+          3.9789
+        ],
+        [
+          "bookmarks",
+          3.9789
+        ],
+        [
+          "buat status",
+          3.9789
+        ],
+        [
+          "build",
+          3.9789
+        ],
+        [
+          "care",
+          3.9789
+        ],
+        [
+          "certainly",
+          3.9789
+        ]
+      ],
+      "top_entities": [
+        [
+          "telegram",
+          13
+        ],
+        [
+          "whatsapp",
+          11
+        ],
+        [
+          "signal",
+          11
+        ],
+        [
+          "ada",
+          6
+        ],
+        [
+          "slack",
+          5
+        ],
+        [
+          "lebih",
+          4
+        ],
+        [
+          "eu",
+          3
+        ],
+        [
+          "nonton",
+          2
+        ],
+        [
+          "onion service",
+          2
+        ],
+        [
+          "tor",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 31,
+        "Neutral": 18,
+        "Positive": 9
+      }
+    },
+    "2020-11-16/2020-11-22": {
+      "n_posts": 65,
+      "trending_terms": [
+        [
+          "ada story",
+          4.091
+        ],
+        [
+          "advertising",
+          4.091
+        ],
+        [
+          "advice",
+          4.091
+        ],
+        [
+          "aja",
+          4.091
+        ],
+        [
+          "anti",
+          4.091
+        ],
+        [
+          "apk ini",
+          4.091
+        ],
+        [
+          "aplikasi ini",
+          4.091
+        ],
+        [
+          "bad",
+          4.091
+        ],
+        [
+          "bagus",
+          4.091
+        ],
+        [
+          "believe",
+          4.091
+        ],
+        [
+          "biar",
+          4.091
+        ],
+        [
+          "big",
+          4.091
+        ],
+        [
+          "big data",
+          4.091
+        ],
+        [
+          "buat story",
+          4.091
+        ],
+        [
+          "bug",
+          4.091
+        ],
+        [
+          "called",
+          4.091
+        ],
+        [
+          "change",
+          4.091
+        ],
+        [
+          "clear",
+          4.091
+        ],
+        [
+          "data wifi",
+          4.091
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          13
+        ],
+        [
+          "kasih bintang",
+          4
+        ],
+        [
+          "twitter",
+          4
+        ],
+        [
+          "youtube",
+          3
+        ],
+        [
+          "aplikasi",
+          2
+        ],
+        [
+          "juga",
+          2
+        ],
+        [
+          "lebih",
+          2
+        ],
+        [
+          "pada saat itu",
+          2
+        ],
+        [
+          "anda yang",
+          2
+        ],
+        [
+          "dan",
+          2
+        ],
+        [
+          "kalau",
+          2
+        ],
+        [
+          "telegram",
+          2
+        ],
+        [
+          "kyc",
+          2
+        ],
+        [
+          "signal",
+          2
+        ],
+        [
+          "wifi",
+          1
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 38,
+        "Neutral": 19,
+        "Positive": 8
+      }
+    },
+    "2020-11-23/2020-11-29": {
+      "n_posts": 80,
+      "trending_terms": [
+        [
+          "actual",
+          4.2958
+        ],
+        [
+          "actually reason",
+          4.2958
+        ],
+        [
+          "address book",
+          4.2958
+        ],
+        [
+          "aku",
+          4.2958
+        ],
+        [
+          "allow",
+          4.2958
+        ],
+        [
+          "anak",
+          4.2958
+        ],
+        [
+          "anak rp",
+          4.2958
+        ],
+        [
+          "anonymized",
+          4.2958
+        ],
+        [
+          "anonymized having",
+          4.2958
+        ],
+        [
+          "anonymous",
+          4.2958
+        ],
+        [
+          "apk",
+          4.2958
+        ],
+        [
+          "aplikasi nya",
+          4.2958
+        ],
+        [
+          "aplikasinya",
+          4.2958
+        ],
+        [
+          "article",
+          4.2958
+        ],
+        [
+          "ask",
+          4.2958
+        ],
+        [
+          "assume",
+          4.2958
+        ],
+        [
+          "assured",
+          4.2958
+        ],
+        [
+          "attack",
+          4.2958
+        ],
+        [
+          "avoid",
+          4.2958
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          37
+        ],
+        [
+          "india",
+          8
+        ],
+        [
+          "apple",
+          7
+        ],
+        [
+          "lebih",
+          6
+        ],
+        [
+          "us",
+          6
+        ],
+        [
+          "aplikasi",
+          4
+        ],
+        [
+          "telegram",
+          4
+        ],
+        [
+          "wifi",
+          3
+        ],
+        [
+          "ada",
+          3
+        ],
+        [
+          "indian",
+          3
+        ],
+        [
+          "alice",
+          3
+        ],
+        [
+          "bob",
+          3
+        ],
+        [
+          "signal",
+          3
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 47,
+        "Neutral": 27,
+        "Positive": 6
+      }
+    },
+    "2020-11-30/2020-12-06": {
+      "n_posts": 67,
+      "trending_terms": [
+        [
+          "acquisition",
+          4.1209
+        ],
+        [
+          "adoption",
+          4.1209
+        ],
+        [
+          "ago",
+          4.1209
+        ],
+        [
+          "aren",
+          4.1209
+        ],
+        [
+          "arrived",
+          4.1209
+        ],
+        [
+          "automatic",
+          4.1209
+        ],
+        [
+          "automatically",
+          4.1209
+        ],
+        [
+          "aware",
+          4.1209
+        ],
+        [
+          "backed",
+          4.1209
+        ],
+        [
+          "bagus sih",
+          4.1209
+        ],
+        [
+          "base",
+          4.1209
+        ],
+        [
+          "best",
+          4.1209
+        ],
+        [
+          "bought",
+          4.1209
+        ],
+        [
+          "break",
+          4.1209
+        ],
+        [
+          "bring",
+          4.1209
+        ],
+        [
+          "calls",
+          4.1209
+        ],
+        [
+          "care",
+          4.1209
+        ],
+        [
+          "choice",
+          4.1209
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          22
+        ],
+        [
+          "signal",
+          13
+        ],
+        [
+          "telegram",
+          12
+        ],
+        [
+          "slack",
+          11
+        ],
+        [
+          "google",
+          3
+        ],
+        [
+          "iot",
+          3
+        ],
+        [
+          "ada",
+          2
+        ],
+        [
+          "storynya",
+          2
+        ],
+        [
+          "eu",
+          2
+        ],
+        [
+          "pgp",
+          2
+        ],
+        [
+          "android",
+          2
+        ],
+        [
+          "windows",
+          2
+        ],
+        [
+          "tuya",
+          2
+        ],
+        [
+          "exchange",
+          2
+        ],
+        [
+          "messenger",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 42,
+        "Neutral": 17,
+        "Positive": 8
+      }
+    },
+    "2020-12-07/2020-12-13": {
+      "n_posts": 101,
+      "trending_terms": [
+        [
+          "accounts",
+          4.5264
+        ],
+        [
+          "advertising",
+          4.5264
+        ],
+        [
+          "ago",
+          4.5264
+        ],
+        [
+          "agree",
+          4.5264
+        ],
+        [
+          "allowed",
+          4.5264
+        ],
+        [
+          "allowing",
+          4.5264
+        ],
+        [
+          "amp",
+          4.5264
+        ],
+        [
+          "antitrust",
+          4.5264
+        ],
+        [
+          "argue",
+          4.5264
+        ],
+        [
+          "ask",
+          4.5264
+        ],
+        [
+          "attacks",
+          4.5264
+        ],
+        [
+          "available",
+          4.5264
+        ],
+        [
+          "background",
+          4.5264
+        ],
+        [
+          "basically",
+          4.5264
+        ],
+        [
+          "benefit",
+          4.5264
+        ],
+        [
+          "biar kayak",
+          4.5264
+        ],
+        [
+          "bit",
+          4.5264
+        ],
+        [
+          "brazil",
+          4.5264
+        ],
+        [
+          "bring",
+          4.5264
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          37
+        ],
+        [
+          "signal",
+          28
+        ],
+        [
+          "telegram",
+          21
+        ],
+        [
+          "monero",
+          9
+        ],
+        [
+          "ig",
+          8
+        ],
+        [
+          "android",
+          7
+        ],
+        [
+          "apple",
+          6
+        ],
+        [
+          "us",
+          6
+        ],
+        [
+          "google",
+          5
+        ],
+        [
+          "isp",
+          4
+        ],
+        [
+          "messenger",
+          4
+        ],
+        [
+          "eu",
+          3
+        ],
+        [
+          "zcash",
+          3
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 77,
+        "Neutral": 17,
+        "Positive": 7
+      }
+    },
+    "2020-12-14/2020-12-20": {
+      "n_posts": 75,
+      "trending_terms": [
+        [
+          "2gb",
+          4.2321
+        ],
+        [
+          "able",
+          4.2321
+        ],
+        [
+          "absolutely",
+          4.2321
+        ],
+        [
+          "access millions",
+          4.2321
+        ],
+        [
+          "accounts",
+          4.2321
+        ],
+        [
+          "actually",
+          4.2321
+        ],
+        [
+          "ada di",
+          4.2321
+        ],
+        [
+          "ada fitur",
+          4.2321
+        ],
+        [
+          "adanya",
+          4.2321
+        ],
+        [
+          "agreement google",
+          4.2321
+        ],
+        [
+          "akan",
+          4.2321
+        ],
+        [
+          "aku",
+          4.2321
+        ],
+        [
+          "allowed",
+          4.2321
+        ],
+        [
+          "americans",
+          4.2321
+        ],
+        [
+          "americans end",
+          4.2321
+        ],
+        [
+          "android",
+          4.2321
+        ],
+        [
+          "anti",
+          4.2321
+        ],
+        [
+          "apk ini",
+          4.2321
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          32
+        ],
+        [
+          "google",
+          18
+        ],
+        [
+          "signal",
+          15
+        ],
+        [
+          "telegram",
+          5
+        ],
+        [
+          "apple",
+          5
+        ],
+        [
+          "pgp",
+          4
+        ],
+        [
+          "gmail",
+          3
+        ],
+        [
+          "moxie",
+          3
+        ],
+        [
+          "wifi",
+          2
+        ],
+        [
+          "youtube",
+          2
+        ],
+        [
+          "aplikasi",
+          2
+        ],
+        [
+          "kan",
+          2
+        ],
+        [
+          "instagram",
+          2
+        ],
+        [
+          "americans",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 42,
+        "Neutral": 22,
+        "Positive": 11
+      }
+    },
+    "2020-12-21/2020-12-27": {
+      "n_posts": 81,
+      "trending_terms": [
+        [
+          "ability",
+          4.3081
+        ],
+        [
+          "absolutely",
+          4.3081
+        ],
+        [
+          "access",
+          4.3081
+        ],
+        [
+          "accounts",
+          4.3081
+        ],
+        [
+          "achieve",
+          4.3081
+        ],
+        [
+          "actual",
+          4.3081
+        ],
+        [
+          "actually",
+          4.3081
+        ],
+        [
+          "ad based",
+          4.3081
+        ],
+        [
+          "address",
+          4.3081
+        ],
+        [
+          "android ios",
+          4.3081
+        ],
+        [
+          "attack",
+          4.3081
+        ],
+        [
+          "billion",
+          4.3081
+        ],
+        [
+          "billion dollar",
+          4.3081
+        ],
+        [
+          "build",
+          4.3081
+        ],
+        [
+          "called",
+          4.3081
+        ],
+        [
+          "came",
+          4.3081
+        ],
+        [
+          "channels",
+          4.3081
+        ]
+      ],
+      "top_entities": [
+        [
+          "telegram",
+          34
+        ],
+        [
+          "whatsapp",
+          23
+        ],
+        [
+          "signal",
+          22
+        ],
+        [
+          "switzerland",
+          9
+        ],
+        [
+          "android",
+          8
+        ],
+        [
+          "threema",
+          8
+        ],
+        [
+          "apple",
+          8
+        ],
+        [
+          "messenger",
+          4
+        ],
+        [
+          "expensify.com",
+          4
+        ],
+        [
+          "lebih",
+          3
+        ],
+        [
+          "instagram",
+          3
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 43,
+        "Neutral": 31,
+        "Positive": 7
+      }
+    },
+    "2020-12-28/2021-01-03": {
+      "n_posts": 74,
+      "trending_terms": [
+        [
+          "akan",
+          4.2189
+        ],
+        [
+          "baru",
+          4.2189
+        ],
+        [
+          "beneran",
+          4.2189
+        ],
+        [
+          "day",
+          4.2189
+        ],
+        [
+          "install",
+          4.2189
+        ],
+        [
+          "let",
+          4.2189
+        ],
+        [
+          "saran",
+          4.2189
+        ],
+        [
+          "stiker nya",
+          4.2189
+        ],
+        [
+          "tidak",
+          4.2189
+        ],
+        [
+          "turned",
+          4.2189
+        ],
+        [
+          "10x",
+          3.9312
+        ],
+        [
+          "10x threat",
+          3.9312
+        ],
+        [
+          "ads",
+          3.9312
+        ],
+        [
+          "ads reasonably",
+          3.9312
+        ],
+        [
+          "aja",
+          3.9312
+        ],
+        [
+          "anti",
+          3.9312
+        ],
+        [
+          "anti trust",
+          3.9312
+        ],
+        [
+          "bad google",
+          3.9312
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          23
+        ],
+        [
+          "google",
+          19
+        ],
+        [
+          "apple",
+          11
+        ],
+        [
+          "lebih",
+          7
+        ],
+        [
+          "telegram",
+          7
+        ],
+        [
+          "android",
+          7
+        ],
+        [
+          "signal",
+          5
+        ],
+        [
+          "sama",
+          3
+        ],
+        [
+          "instagram",
+          3
+        ],
+        [
+          "it&#x27",
+          3
+        ],
+        [
+          "fb",
+          3
+        ],
+        [
+          "insta",
+          3
+        ],
+        [
+          "chrome",
+          3
+        ],
+        [
+          "search",
+          3
+        ],
+        [
+          "store only&#x27",
+          3
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 45,
+        "Neutral": 20,
+        "Positive": 9
+      }
+    },
+    "2021-01-04/2021-01-10": {
+      "n_posts": 1897,
+      "trending_terms": [
+        [
+          "screen",
+          6.246
+        ],
+        [
+          "item id",
+          5.7153
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          1525
+        ],
+        [
+          "signal",
+          1082
+        ],
+        [
+          "telegram",
+          980
+        ],
+        [
+          "eu",
+          69
+        ],
+        [
+          "ui",
+          67
+        ],
+        [
+          "apple",
+          64
+        ],
+        [
+          "google",
+          53
+        ],
+        [
+          "android",
+          53
+        ],
+        [
+          "matrix",
+          47
+        ],
+        [
+          "discord",
+          45
+        ],
+        [
+          "facebook companies",
+          44
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 1385,
+        "Neutral": 331,
+        "Positive": 181
+      }
+    },
+    "2021-01-11/2021-01-17": {
+      "n_posts": 2330,
+      "trending_terms": [],
+      "top_entities": [
+        [
+          "signal",
+          1140
+        ],
+        [
+          "telegram",
+          937
+        ],
+        [
+          "whatsapp",
+          831
+        ],
+        [
+          "google",
+          68
+        ],
+        [
+          "parler",
+          56
+        ],
+        [
+          "apple",
+          50
+        ],
+        [
+          "twitter",
+          48
+        ],
+        [
+          "usa",
+          47
+        ],
+        [
+          "us",
+          38
+        ],
+        [
+          "android",
+          37
+        ],
+        [
+          "india",
+          36
+        ],
+        [
+          "european",
+          30
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 1483,
+        "Neutral": 572,
+        "Positive": 275
+      }
+    },
+    "2021-01-18/2021-01-24": {
+      "n_posts": 971,
+      "trending_terms": [],
+      "top_entities": [
+        [
+          "signal",
+          454
+        ],
+        [
+          "whatsapp",
+          415
+        ],
+        [
+          "telegram",
+          317
+        ],
+        [
+          "google",
+          75
+        ],
+        [
+          "india",
+          40
+        ],
+        [
+          "android",
+          30
+        ],
+        [
+          "sgx",
+          24
+        ],
+        [
+          "apple",
+          21
+        ],
+        [
+          "threema",
+          19
+        ],
+        [
+          "sms",
+          19
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 603,
+        "Neutral": 249,
+        "Positive": 119
+      }
+    },
+    "2021-01-25/2021-01-31": {
+      "n_posts": 700,
+      "trending_terms": [],
+      "top_entities": [
+        [
+          "whatsapp",
+          448
+        ],
+        [
+          "telegram",
+          328
+        ],
+        [
+          "signal",
+          312
+        ],
+        [
+          "india",
+          32
+        ],
+        [
+          "eu",
+          27
+        ],
+        [
+          "skype",
+          19
+        ],
+        [
+          "google",
+          16
+        ],
+        [
+          "tos",
+          15
+        ],
+        [
+          "sms",
+          15
+        ],
+        [
+          "apple",
+          13
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 502,
+        "Neutral": 115,
+        "Positive": 83
+      }
+    },
+    "2021-02-01/2021-02-07": {
+      "n_posts": 277,
+      "trending_terms": [
+        [
+          "08 london",
+          5.0182
+        ],
+        [
+          "2fa",
+          5.0182
+        ],
+        [
+          "assumptions empirically",
+          5.0182
+        ],
+        [
+          "aug 08",
+          5.0182
+        ],
+        [
+          "best interests",
+          5.0182
+        ],
+        [
+          "blog archives",
+          5.0182
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          101
+        ],
+        [
+          "signal",
+          81
+        ],
+        [
+          "telegram",
+          74
+        ],
+        [
+          "iran",
+          20
+        ],
+        [
+          "iranians",
+          20
+        ],
+        [
+          "kafka",
+          20
+        ],
+        [
+          "russia",
+          16
+        ],
+        [
+          "twitter",
+          14
+        ],
+        [
+          "google",
+          12
+        ],
+        [
+          "android",
+          10
+        ],
+        [
+          "bbm",
+          9
+        ],
+        [
+          "parler",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 165,
+        "Neutral": 60,
+        "Positive": 52
+      }
+    },
+    "2021-02-08/2021-02-14": {
+      "n_posts": 173,
+      "trending_terms": [
+        [
+          "kek",
+          4.7728
+        ],
+        [
+          "02 03",
+          4.5496
+        ],
+        [
+          "03 technology",
+          4.5496
+        ],
+        [
+          "05 uk",
+          4.5496
+        ],
+        [
+          "10 second",
+          4.5496
+        ],
+        [
+          "11 writes",
+          4.5496
+        ],
+        [
+          "12 05",
+          4.5496
+        ],
+        [
+          "200 000",
+          4.5496
+        ],
+        [
+          "50 followers",
+          4.5496
+        ]
+      ],
+      "top_entities": [
+        [
+          "signal",
+          156
+        ],
+        [
+          "telegram",
+          93
+        ],
+        [
+          "whatsapp",
+          37
+        ],
+        [
+          "apple",
+          28
+        ],
+        [
+          "sns",
+          16
+        ],
+        [
+          "icloud",
+          12
+        ],
+        [
+          "fud",
+          12
+        ],
+        [
+          "times",
+          12
+        ],
+        [
+          "stasi",
+          12
+        ],
+        [
+          "motte",
+          8
+        ],
+        [
+          "href=\"https://github.com",
+          8
+        ],
+        [
+          "google",
+          8
+        ],
+        [
+          "uk",
+          8
+        ],
+        [
+          "google &",
+          4
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 138,
+        "Neutral": 19,
+        "Positive": 16
+      }
+    },
+    "2021-02-15/2021-02-21": {
+      "n_posts": 328,
+      "trending_terms": [
+        [
+          "light",
+          5.4098
+        ],
+        [
+          "permission",
+          5.4098
+        ],
+        [
+          "replies",
+          5.4098
+        ],
+        [
+          "smartglasses",
+          5.4098
+        ],
+        [
+          "unless",
+          5.4098
+        ],
+        [
+          "amp arstechnica",
+          5.1866
+        ],
+        [
+          "arstechnica",
+          5.1866
+        ],
+        [
+          "auto",
+          5.1866
+        ],
+        [
+          "believe",
+          5.1866
+        ],
+        [
+          "bloated",
+          5.1866
+        ],
+        [
+          "bloated garbage",
+          5.1866
+        ],
+        [
+          "block",
+          5.1866
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          205
+        ],
+        [
+          "signal",
+          126
+        ],
+        [
+          "telegram",
+          104
+        ],
+        [
+          "android",
+          13
+        ],
+        [
+          "ui",
+          12
+        ],
+        [
+          "discord",
+          11
+        ],
+        [
+          "india",
+          11
+        ],
+        [
+          "tos",
+          10
+        ],
+        [
+          "whatsapp business",
+          8
+        ],
+        [
+          "news.ycombinator.com##table.itemlist &gt",
+          8
+        ],
+        [
+          "apple",
+          8
+        ],
+        [
+          "twitter",
+          8
+        ],
+        [
+          "java",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 246,
+        "Neutral": 62,
+        "Positive": 20
+      }
+    },
+    "2021-02-22/2021-02-28": {
+      "n_posts": 265,
+      "trending_terms": [
+        [
+          "paid",
+          5.1972
+        ],
+        [
+          "bakery",
+          4.9741
+        ],
+        [
+          "bakery facebook",
+          4.9741
+        ],
+        [
+          "bakery x27",
+          4.9741
+        ],
+        [
+          "base",
+          4.9741
+        ],
+        [
+          "browser",
+          4.9741
+        ],
+        [
+          "chat bakery",
+          4.9741
+        ],
+        [
+          "chat conversations",
+          4.9741
+        ],
+        [
+          "contact bakery",
+          4.9741
+        ]
+      ],
+      "top_entities": [
+        [
+          "signal",
+          226
+        ],
+        [
+          "whatsapp",
+          142
+        ],
+        [
+          "telegram",
+          126
+        ],
+        [
+          "xmpp",
+          35
+        ],
+        [
+          "apple",
+          25
+        ],
+        [
+          "ui",
+          24
+        ],
+        [
+          "clubhouse",
+          24
+        ],
+        [
+          "android",
+          18
+        ],
+        [
+          "google",
+          15
+        ],
+        [
+          "href=\"https://xmpp.org",
+          12
+        ],
+        [
+          "microsoft",
+          12
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 191,
+        "Neutral": 58,
+        "Positive": 16
+      }
+    },
+    "2021-03-01/2021-03-07": {
+      "n_posts": 115,
+      "trending_terms": [
+        [
+          "content",
+          4.3673
+        ],
+        [
+          "does mean",
+          4.3673
+        ],
+        [
+          "family",
+          4.3673
+        ],
+        [
+          "family friends",
+          4.3673
+        ],
+        [
+          "faq",
+          4.3673
+        ],
+        [
+          "friends",
+          4.3673
+        ],
+        [
+          "general security",
+          4.3673
+        ],
+        [
+          "kita",
+          4.3673
+        ],
+        [
+          "support",
+          4.3673
+        ],
+        [
+          "02 15",
+          4.1442
+        ],
+        [
+          "08 facebook",
+          4.1442
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          66
+        ],
+        [
+          "telegram",
+          10
+        ],
+        [
+          "rel=\"nofollow\">https://www.eff.org/deeplinks/2016/08",
+          8
+        ],
+        [
+          "indian",
+          8
+        ],
+        [
+          "google",
+          8
+        ],
+        [
+          "duchenne",
+          8
+        ],
+        [
+          "signal",
+          8
+        ],
+        [
+          "anytrans",
+          6
+        ],
+        [
+          "setapp",
+          6
+        ],
+        [
+          "whatsapp/signal",
+          4
+        ],
+        [
+          "south africa",
+          4
+        ],
+        [
+          "eff",
+          4
+        ],
+        [
+          "wolf",
+          4
+        ],
+        [
+          "david vs goliath",
+          4
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 67,
+        "Neutral": 36,
+        "Positive": 12
+      }
+    },
+    "2021-03-08/2021-03-14": {
+      "n_posts": 173,
+      "trending_terms": [
+        [
+          "aplikasi",
+          4.7728
+        ],
+        [
+          "asking",
+          4.7728
+        ],
+        [
+          "cloud chats",
+          4.7728
+        ],
+        [
+          "content",
+          4.7728
+        ],
+        [
+          "dan",
+          4.7728
+        ],
+        [
+          "faq",
+          4.7728
+        ],
+        [
+          "general security",
+          4.7728
+        ],
+        [
+          "government surveillance",
+          4.7728
+        ],
+        [
+          "personally",
+          4.7728
+        ],
+        [
+          "recent",
+          4.7728
+        ],
+        [
+          "recent messages",
+          4.7728
+        ],
+        [
+          "stored",
+          4.7728
+        ],
+        [
+          "yang",
+          4.7728
+        ],
+        [
+          "100s",
+          4.5496
+        ],
+        [
+          "100s years",
+          4.5496
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          134
+        ],
+        [
+          "telegram",
+          67
+        ],
+        [
+          "signal",
+          60
+        ],
+        [
+          "api",
+          16
+        ],
+        [
+          "germany",
+          11
+        ],
+        [
+          "tos",
+          11
+        ],
+        [
+          "xmpp",
+          8
+        ],
+        [
+          "india",
+          8
+        ],
+        [
+          "hindus",
+          8
+        ],
+        [
+          "twitter",
+          8
+        ],
+        [
+          "aws",
+          8
+        ],
+        [
+          "gpg",
+          8
+        ],
+        [
+          "keybase",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 133,
+        "Neutral": 26,
+        "Positive": 14
+      }
+    },
+    "2021-03-15/2021-03-21": {
+      "n_posts": 242,
+      "trending_terms": [
+        [
+          "chatwoot",
+          5.1068
+        ],
+        [
+          "chatwoot chatwoot",
+          5.1068
+        ],
+        [
+          "conscious",
+          5.1068
+        ],
+        [
+          "laws regulations",
+          5.1068
+        ],
+        [
+          "regularly",
+          5.1068
+        ],
+        [
+          "software",
+          5.1068
+        ],
+        [
+          "ability",
+          4.8836
+        ],
+        [
+          "ai api",
+          4.8836
+        ],
+        [
+          "beeper",
+          4.8836
+        ],
+        [
+          "business model",
+          4.8836
+        ],
+        [
+          "channel",
+          4.8836
+        ],
+        [
+          "closed",
+          4.8836
+        ],
+        [
+          "closed source",
+          4.8836
+        ],
+        [
+          "contora",
+          4.8836
+        ]
+      ],
+      "top_entities": [
+        [
+          "telegram",
+          160
+        ],
+        [
+          "whatsapp",
+          130
+        ],
+        [
+          "signal",
+          120
+        ],
+        [
+          "chatwoot",
+          24
+        ],
+        [
+          "irc",
+          16
+        ],
+        [
+          "ip",
+          11
+        ],
+        [
+          "ui",
+          11
+        ],
+        [
+          "msn",
+          8
+        ],
+        [
+          "yahoo messenger",
+          8
+        ],
+        [
+          "google chat",
+          8
+        ],
+        [
+          "skype",
+          8
+        ],
+        [
+          "slack",
+          8
+        ],
+        [
+          "android",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 202,
+        "Neutral": 29,
+        "Positive": 11
+      }
+    },
+    "2021-03-22/2021-03-28": {
+      "n_posts": 84,
+      "trending_terms": [
+        [
+          "apk",
+          4.344
+        ],
+        [
+          "actually want",
+          4.0564
+        ],
+        [
+          "ada",
+          4.0564
+        ],
+        [
+          "aplikasi",
+          4.0564
+        ],
+        [
+          "bagus tapi",
+          4.0564
+        ],
+        [
+          "bisa",
+          4.0564
+        ],
+        [
+          "buat",
+          4.0564
+        ],
+        [
+          "chat",
+          4.0564
+        ],
+        [
+          "deleting",
+          4.0564
+        ],
+        [
+          "fsf",
+          4.0564
+        ],
+        [
+          "install",
+          4.0564
+        ],
+        [
+          "lebih bagus",
+          4.0564
+        ],
+        [
+          "location",
+          4.0564
+        ],
+        [
+          "nya",
+          4.0564
+        ],
+        [
+          "point x27",
+          4.0564
+        ],
+        [
+          "saat",
+          4.0564
+        ],
+        [
+          "share",
+          4.0564
+        ],
+        [
+          "share location",
+          4.0564
+        ],
+        [
+          "simply",
+          4.0564
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          34
+        ],
+        [
+          "signal",
+          19
+        ],
+        [
+          "android",
+          16
+        ],
+        [
+          "linux",
+          8
+        ],
+        [
+          "telegram",
+          8
+        ],
+        [
+          "sms",
+          7
+        ],
+        [
+          "lebih",
+          6
+        ],
+        [
+          "fsf",
+          6
+        ],
+        [
+          "india",
+          4
+        ],
+        [
+          "x. personally",
+          4
+        ],
+        [
+          "api",
+          4
+        ],
+        [
+          "ios",
+          4
+        ],
+        [
+          "twitter",
+          4
+        ],
+        [
+          "slack",
+          4
+        ],
+        [
+          "email",
+          4
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 59,
+        "Neutral": 17,
+        "Positive": 8
+      }
+    },
+    "2021-03-29/2021-04-04": {
+      "n_posts": 104,
+      "trending_terms": [
+        [
+          "kita",
+          4.5553
+        ],
+        [
+          "sama",
+          4.5553
+        ],
+        [
+          "533m",
+          4.2677
+        ],
+        [
+          "details",
+          4.2677
+        ],
+        [
+          "forever",
+          4.2677
+        ],
+        [
+          "harm",
+          4.2677
+        ],
+        [
+          "itu",
+          4.2677
+        ],
+        [
+          "particular",
+          4.2677
+        ],
+        [
+          "probably won",
+          4.2677
+        ],
+        [
+          "question",
+          4.2677
+        ],
+        [
+          "saya",
+          4.2677
+        ],
+        [
+          "shit",
+          4.2677
+        ],
+        [
+          "video",
+          4.2677
+        ],
+        [
+          "x27 think",
+          4.2677
+        ],
+        [
+          "000 month",
+          4.0445
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          44
+        ],
+        [
+          "apple",
+          12
+        ],
+        [
+          "instagram",
+          11
+        ],
+        [
+          "sms",
+          10
+        ],
+        [
+          "the facebook company products",
+          8
+        ],
+        [
+          "linux",
+          8
+        ],
+        [
+          "bosch",
+          8
+        ],
+        [
+          "telegram",
+          5
+        ],
+        [
+          "eea",
+          4
+        ],
+        [
+          "the facebook companies",
+          4
+        ],
+        [
+          "facebook company products",
+          4
+        ],
+        [
+          "eu",
+          4
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 80,
+        "Neutral": 15,
+        "Positive": 9
+      }
+    },
+    "2021-04-05/2021-04-11": {
+      "n_posts": 361,
+      "trending_terms": [
+        [
+          "37 issueco",
+          5.2822
+        ],
+        [
+          "abishekmuthian",
+          5.2822
+        ],
+        [
+          "butt",
+          5.2822
+        ],
+        [
+          "butt triggered",
+          5.2822
+        ],
+        [
+          "cli",
+          5.2822
+        ],
+        [
+          "closed source",
+          5.2822
+        ],
+        [
+          "consumer",
+          5.2822
+        ],
+        [
+          "financial",
+          5.2822
+        ],
+        [
+          "issueco",
+          5.2822
+        ]
+      ],
+      "top_entities": [
+        [
+          "signal",
+          376
+        ],
+        [
+          "telegram",
+          233
+        ],
+        [
+          "whatsapp",
+          228
+        ],
+        [
+          "href=\"https://github.com",
+          36
+        ],
+        [
+          "android",
+          31
+        ],
+        [
+          "fud",
+          28
+        ],
+        [
+          "uk",
+          24
+        ],
+        [
+          "libresignal/libresignal",
+          20
+        ],
+        [
+          "mobilecoin",
+          20
+        ],
+        [
+          "moxie",
+          19
+        ],
+        [
+          "apple",
+          16
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 321,
+        "Neutral": 22,
+        "Positive": 18
+      }
+    },
+    "2021-04-12/2021-04-18": {
+      "n_posts": 212,
+      "trending_terms": [
+        [
+          "store value",
+          4.975
+        ],
+        [
+          "unique",
+          4.975
+        ],
+        [
+          "11 year",
+          4.7519
+        ],
+        [
+          "20 million",
+          4.7519
+        ],
+        [
+          "accumulations",
+          4.7519
+        ],
+        [
+          "accumulations data",
+          4.7519
+        ],
+        [
+          "ancient",
+          4.7519
+        ],
+        [
+          "articles",
+          4.7519
+        ],
+        [
+          "ask",
+          4.7519
+        ],
+        [
+          "assistance",
+          4.7519
+        ],
+        [
+          "attracts",
+          4.7519
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          142
+        ],
+        [
+          "signal",
+          138
+        ],
+        [
+          "telegram",
+          58
+        ],
+        [
+          "mobilecoin",
+          28
+        ],
+        [
+          "apple",
+          28
+        ],
+        [
+          "snapchat",
+          16
+        ],
+        [
+          "eu",
+          15
+        ],
+        [
+          "api",
+          11
+        ],
+        [
+          "microsoft",
+          8
+        ],
+        [
+          "facebook messenger",
+          8
+        ],
+        [
+          "mac",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 172,
+        "Positive": 21,
+        "Neutral": 19
+      }
+    },
+    "2021-04-19/2021-04-25": {
+      "n_posts": 119,
+      "trending_terms": [
+        [
+          "aplikasi",
+          4.6889
+        ],
+        [
+          "saya",
+          4.6889
+        ],
+        [
+          "attached",
+          4.4012
+        ],
+        [
+          "attached picture",
+          4.4012
+        ],
+        [
+          "blog en",
+          4.4012
+        ],
+        [
+          "explanation",
+          4.4012
+        ],
+        [
+          "gak",
+          4.4012
+        ],
+        [
+          "garden",
+          4.4012
+        ],
+        [
+          "garden im",
+          4.4012
+        ],
+        [
+          "hash",
+          4.4012
+        ],
+        [
+          "hashing",
+          4.4012
+        ],
+        [
+          "issue",
+          4.4012
+        ],
+        [
+          "item",
+          4.4012
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          88
+        ],
+        [
+          "signal",
+          72
+        ],
+        [
+          "telegram",
+          28
+        ],
+        [
+          "india",
+          12
+        ],
+        [
+          "us",
+          8
+        ],
+        [
+          "twitter",
+          8
+        ],
+        [
+          "belarus",
+          8
+        ],
+        [
+          "ip",
+          8
+        ],
+        [
+          "the signal protocol",
+          4
+        ],
+        [
+          "messenger",
+          4
+        ],
+        [
+          "gmail",
+          4
+        ],
+        [
+          "google",
+          4
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 95,
+        "Neutral": 16,
+        "Positive": 8
+      }
+    },
+    "2021-04-26/2021-05-02": {
+      "n_posts": 168,
+      "trending_terms": [
+        [
+          "5llql",
+          4.7436
+        ],
+        [
+          "according",
+          4.7436
+        ],
+        [
+          "aravind",
+          4.7436
+        ],
+        [
+          "aravind said",
+          4.7436
+        ],
+        [
+          "aravind told",
+          4.7436
+        ],
+        [
+          "archive",
+          4.7436
+        ],
+        [
+          "archive 5llql",
+          4.7436
+        ],
+        [
+          "argument average",
+          4.7436
+        ],
+        [
+          "arimbrathodiyil",
+          4.7436
+        ],
+        [
+          "arimbrathodiyil x27",
+          4.7436
+        ],
+        [
+          "audio",
+          4.7436
+        ],
+        [
+          "average",
+          4.7436
+        ],
+        [
+          "bisa",
+          4.7436
+        ],
+        [
+          "burden",
+          4.7436
+        ],
+        [
+          "center",
+          4.7436
+        ],
+        [
+          "challenge",
+          4.7436
+        ],
+        [
+          "choudhary",
+          4.7436
+        ],
+        [
+          "choudhary said",
+          4.7436
+        ]
+      ],
+      "top_entities": [
+        [
+          "signal",
+          93
+        ],
+        [
+          "whatsapp",
+          78
+        ],
+        [
+          "telegram",
+          64
+        ],
+        [
+          "india",
+          40
+        ],
+        [
+          "twitter",
+          35
+        ],
+        [
+          "instagram",
+          15
+        ],
+        [
+          "us",
+          14
+        ],
+        [
+          "ml",
+          12
+        ],
+        [
+          "china",
+          9
+        ],
+        [
+          "clubhouse",
+          9
+        ],
+        [
+          "the software freedom law center",
+          9
+        ],
+        [
+          "air",
+          8
+        ],
+        [
+          "iphones",
+          8
+        ],
+        [
+          "facebook messenger",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 125,
+        "Positive": 26,
+        "Neutral": 17
+      }
+    },
+    "2021-05-03/2021-05-09": {
+      "n_posts": 209,
+      "trending_terms": [
+        [
+          "action",
+          4.9608
+        ],
+        [
+          "dying",
+          4.9608
+        ],
+        [
+          "fbook",
+          4.9608
+        ],
+        [
+          "group sms",
+          4.9608
+        ],
+        [
+          "local",
+          4.9608
+        ],
+        [
+          "maps",
+          4.9608
+        ],
+        [
+          "pages",
+          4.9608
+        ],
+        [
+          "search",
+          4.9608
+        ],
+        [
+          "yellow",
+          4.9608
+        ],
+        [
+          "yellow pages",
+          4.9608
+        ],
+        [
+          "accepting terms",
+          4.7377
+        ],
+        [
+          "acquisitions",
+          4.7377
+        ],
+        [
+          "adwords",
+          4.7377
+        ],
+        [
+          "adwords google",
+          4.7377
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          128
+        ],
+        [
+          "signal",
+          67
+        ],
+        [
+          "telegram",
+          58
+        ],
+        [
+          "us",
+          19
+        ],
+        [
+          "google",
+          18
+        ],
+        [
+          "apple",
+          12
+        ],
+        [
+          "sms",
+          12
+        ],
+        [
+          "clubhouse",
+          12
+        ],
+        [
+          "android",
+          11
+        ],
+        [
+          "india",
+          10
+        ],
+        [
+          "chinese",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 148,
+        "Neutral": 37,
+        "Positive": 24
+      }
+    },
+    "2021-05-10/2021-05-16": {
+      "n_posts": 241,
+      "trending_terms": [
+        [
+          "antivirus",
+          5.1026
+        ],
+        [
+          "certain",
+          5.1026
+        ],
+        [
+          "clarified",
+          5.1026
+        ],
+        [
+          "end",
+          5.1026
+        ],
+        [
+          "engage",
+          5.1026
+        ],
+        [
+          "fix",
+          5.1026
+        ],
+        [
+          "forced",
+          5.1026
+        ],
+        [
+          "germans",
+          5.1026
+        ],
+        [
+          "ideology",
+          5.1026
+        ],
+        [
+          "iran",
+          5.1026
+        ],
+        [
+          "kuom",
+          5.1026
+        ],
+        [
+          "malware",
+          5.1026
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          157
+        ],
+        [
+          "telegram",
+          50
+        ],
+        [
+          "signal",
+          42
+        ],
+        [
+          "zulip",
+          16
+        ],
+        [
+          "im",
+          16
+        ],
+        [
+          "germans",
+          15
+        ],
+        [
+          "germany",
+          13
+        ],
+        [
+          "german",
+          11
+        ],
+        [
+          "kuom",
+          9
+        ],
+        [
+          "app store",
+          8
+        ],
+        [
+          "the irish data protection commission",
+          8
+        ],
+        [
+          "facebook/whatsapp",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 177,
+        "Neutral": 45,
+        "Positive": 19
+      }
+    },
+    "2021-05-17/2021-05-23": {
+      "n_posts": 439,
+      "trending_terms": [
+        [
+          "bisa",
+          5.7005
+        ],
+        [
+          "choice",
+          5.7005
+        ],
+        [
+          "choose",
+          5.7005
+        ],
+        [
+          "experience",
+          5.7005
+        ],
+        [
+          "limit",
+          5.7005
+        ],
+        [
+          "okay",
+          5.7005
+        ],
+        [
+          "opt",
+          5.7005
+        ],
+        [
+          "shredding",
+          5.7005
+        ],
+        [
+          "store review",
+          5.7005
+        ],
+        [
+          "x27 opt",
+          5.7005
+        ],
+        [
+          "300kb",
+          5.4773
+        ],
+        [
+          "300kb webp",
+          5.4773
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          55
+        ],
+        [
+          "signal",
+          24
+        ],
+        [
+          "telegram",
+          18
+        ],
+        [
+          "apple",
+          13
+        ],
+        [
+          "app store",
+          12
+        ],
+        [
+          "indian",
+          12
+        ],
+        [
+          "chicago",
+          8
+        ],
+        [
+          "sms",
+          8
+        ],
+        [
+          "instagram",
+          5
+        ],
+        [
+          "fbi",
+          5
+        ],
+        [
+          "devs",
+          4
+        ],
+        [
+          "kyc",
+          4
+        ],
+        [
+          "u.s.",
+          4
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 285,
+        "Neutral": 99,
+        "Positive": 55
+      }
+    },
+    "2021-05-24/2021-05-30": {
+      "n_posts": 205,
+      "trending_terms": [
+        [
+          "ac generator",
+          4.9416
+        ],
+        [
+          "alice",
+          4.9416
+        ],
+        [
+          "amplifiers",
+          4.9416
+        ],
+        [
+          "atleast",
+          4.9416
+        ],
+        [
+          "big players",
+          4.9416
+        ],
+        [
+          "bob",
+          4.9416
+        ],
+        [
+          "crypto",
+          4.9416
+        ],
+        [
+          "distance",
+          4.9416
+        ],
+        [
+          "early",
+          4.9416
+        ],
+        [
+          "early electronics",
+          4.9416
+        ],
+        [
+          "edison",
+          4.9416
+        ],
+        [
+          "electronics",
+          4.9416
+        ],
+        [
+          "fake",
+          4.9416
+        ],
+        [
+          "feedback",
+          4.9416
+        ],
+        [
+          "generator",
+          4.9416
+        ],
+        [
+          "high",
+          4.9416
+        ],
+        [
+          "incerto",
+          4.9416
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          137
+        ],
+        [
+          "telegram",
+          47
+        ],
+        [
+          "signal",
+          28
+        ],
+        [
+          "sms",
+          24
+        ],
+        [
+          "apple",
+          24
+        ],
+        [
+          "indian",
+          13
+        ],
+        [
+          "android",
+          12
+        ],
+        [
+          "brazil",
+          12
+        ],
+        [
+          "google",
+          10
+        ],
+        [
+          "india",
+          9
+        ],
+        [
+          "bob",
+          9
+        ],
+        [
+          "discord",
+          8
+        ],
+        [
+          "slack",
+          8
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 129,
+        "Neutral": 50,
+        "Positive": 26
+      }
+    },
+    "2021-05-31/2021-06-06": {
+      "n_posts": 91,
+      "trending_terms": [
+        [
+          "accounts",
+          4.4232
+        ],
+        [
+          "accounts don",
+          4.4232
+        ],
+        [
+          "afaik",
+          4.4232
+        ],
+        [
+          "agree",
+          4.4232
+        ],
+        [
+          "algorithm",
+          4.4232
+        ],
+        [
+          "allow",
+          4.4232
+        ],
+        [
+          "anymore",
+          4.4232
+        ],
+        [
+          "argument",
+          4.4232
+        ],
+        [
+          "available",
+          4.4232
+        ],
+        [
+          "average",
+          4.4232
+        ],
+        [
+          "backed",
+          4.4232
+        ],
+        [
+          "bad",
+          4.4232
+        ],
+        [
+          "bagus",
+          4.4232
+        ],
+        [
+          "believe",
+          4.4232
+        ],
+        [
+          "bisa",
+          4.4232
+        ],
+        [
+          "bring",
+          4.4232
+        ],
+        [
+          "build",
+          4.4232
+        ],
+        [
+          "called",
+          4.4232
+        ],
+        [
+          "care",
+          4.4232
+        ],
+        [
+          "change",
+          4.4232
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          31
+        ],
+        [
+          "signal",
+          12
+        ],
+        [
+          "telegram",
+          8
+        ],
+        [
+          "instagram",
+          4
+        ],
+        [
+          "apple",
+          4
+        ],
+        [
+          "twitter",
+          3
+        ],
+        [
+          "kurang",
+          2
+        ],
+        [
+          "mau",
+          2
+        ],
+        [
+          "bitcoin",
+          2
+        ],
+        [
+          "ssl",
+          2
+        ],
+        [
+          "href=\"https://texts.com",
+          2
+        ],
+        [
+          "typescript",
+          2
+        ],
+        [
+          "bbm",
+          1
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 66,
+        "Neutral": 16,
+        "Positive": 9
+      }
+    },
+    "2021-06-07/2021-06-13": {
+      "n_posts": 70,
+      "trending_terms": [
+        [
+          "aja",
+          4.1641
+        ],
+        [
+          "android",
+          4.1641
+        ],
+        [
+          "bad",
+          4.1641
+        ],
+        [
+          "banyak",
+          4.1641
+        ],
+        [
+          "based",
+          4.1641
+        ],
+        [
+          "behavior",
+          4.1641
+        ],
+        [
+          "believe",
+          4.1641
+        ],
+        [
+          "better",
+          4.1641
+        ],
+        [
+          "block",
+          4.1641
+        ],
+        [
+          "buat",
+          4.1641
+        ],
+        [
+          "cases",
+          4.1641
+        ],
+        [
+          "challenge",
+          4.1641
+        ],
+        [
+          "check",
+          4.1641
+        ],
+        [
+          "collect",
+          4.1641
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          12
+        ],
+        [
+          "indian",
+          5
+        ],
+        [
+          "india",
+          5
+        ],
+        [
+          "telegram",
+          5
+        ],
+        [
+          "trump",
+          4
+        ],
+        [
+          "american",
+          4
+        ],
+        [
+          "signal",
+          4
+        ],
+        [
+          "messenger",
+          3
+        ],
+        [
+          "twitter",
+          3
+        ],
+        [
+          "href=\"https://invent.kde.org",
+          3
+        ],
+        [
+          "apk",
+          2
+        ],
+        [
+          "android",
+          2
+        ],
+        [
+          "modi",
+          2
+        ],
+        [
+          "tor",
+          2
+        ],
+        [
+          "fbi",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 46,
+        "Neutral": 20,
+        "Positive": 4
+      }
+    },
+    "2021-06-14/2021-06-20": {
+      "n_posts": 51,
+      "trending_terms": [
+        [
+          "aplikasi ini",
+          3.8526
+        ],
+        [
+          "aplikasi nya",
+          3.8526
+        ],
+        [
+          "backup",
+          3.8526
+        ],
+        [
+          "bad",
+          3.8526
+        ],
+        [
+          "bagus",
+          3.8526
+        ],
+        [
+          "big",
+          3.8526
+        ],
+        [
+          "came",
+          3.8526
+        ],
+        [
+          "currently",
+          3.8526
+        ],
+        [
+          "customer",
+          3.8526
+        ],
+        [
+          "dan",
+          3.8526
+        ],
+        [
+          "data saya",
+          3.8526
+        ],
+        [
+          "did",
+          3.8526
+        ],
+        [
+          "different",
+          3.8526
+        ],
+        [
+          "doesn",
+          3.8526
+        ],
+        [
+          "doing",
+          3.8526
+        ],
+        [
+          "don x27",
+          3.8526
+        ],
+        [
+          "download",
+          3.8526
+        ],
+        [
+          "easily",
+          3.8526
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          14
+        ],
+        [
+          "signal",
+          5
+        ],
+        [
+          "aplikasi",
+          4
+        ],
+        [
+          "xmpp",
+          4
+        ],
+        [
+          "dns",
+          3
+        ],
+        [
+          "irc",
+          2
+        ],
+        [
+          "telegram",
+          2
+        ],
+        [
+          "w.a.",
+          1
+        ],
+        [
+          "reinstall",
+          1
+        ],
+        [
+          "developer",
+          1
+        ],
+        [
+          "michael jackson",
+          1
+        ],
+        [
+          "stop",
+          1
+        ],
+        [
+          "b.c.",
+          1
+        ],
+        [
+          "ffff00\"idon'tuseaw",
+          1
+        ],
+        [
+          "emm",
+          1
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 35,
+        "Neutral": 10,
+        "Positive": 6
+      }
+    },
+    "2021-06-21/2021-06-27": {
+      "n_posts": 81,
+      "trending_terms": [
+        [
+          "ability",
+          4.3081
+        ],
+        [
+          "ada beberapa",
+          4.3081
+        ],
+        [
+          "add",
+          4.3081
+        ],
+        [
+          "ads",
+          4.3081
+        ],
+        [
+          "agree",
+          4.3081
+        ],
+        [
+          "aja",
+          4.3081
+        ],
+        [
+          "allow",
+          4.3081
+        ],
+        [
+          "allows",
+          4.3081
+        ],
+        [
+          "apk",
+          4.3081
+        ],
+        [
+          "apk nya",
+          4.3081
+        ],
+        [
+          "aplikasi",
+          4.3081
+        ],
+        [
+          "aren",
+          4.3081
+        ],
+        [
+          "aren x27",
+          4.3081
+        ],
+        [
+          "argue",
+          4.3081
+        ],
+        [
+          "automatically",
+          4.3081
+        ],
+        [
+          "backups",
+          4.3081
+        ],
+        [
+          "bagus",
+          4.3081
+        ],
+        [
+          "beberapa",
+          4.3081
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          31
+        ],
+        [
+          "signal",
+          28
+        ],
+        [
+          "telegram",
+          25
+        ],
+        [
+          "xmpp",
+          8
+        ],
+        [
+          "us",
+          8
+        ],
+        [
+          "tiktok",
+          5
+        ],
+        [
+          "snikket",
+          5
+        ],
+        [
+          "instagram",
+          3
+        ],
+        [
+          "google",
+          3
+        ],
+        [
+          "android",
+          3
+        ],
+        [
+          "india",
+          3
+        ],
+        [
+          "data",
+          2
+        ],
+        [
+          "phone",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 54,
+        "Neutral": 18,
+        "Positive": 9
+      }
+    },
+    "2021-06-28/2021-07-04": {
+      "n_posts": 55,
+      "trending_terms": [
+        [
+          "acquisitions",
+          3.9267
+        ],
+        [
+          "act",
+          3.9267
+        ],
+        [
+          "ago",
+          3.9267
+        ],
+        [
+          "antitrust",
+          3.9267
+        ],
+        [
+          "api",
+          3.9267
+        ],
+        [
+          "apl",
+          3.9267
+        ],
+        [
+          "arrived",
+          3.9267
+        ],
+        [
+          "backup data",
+          3.9267
+        ],
+        [
+          "case",
+          3.9267
+        ],
+        [
+          "chat",
+          3.9267
+        ],
+        [
+          "chats",
+          3.9267
+        ],
+        [
+          "checked",
+          3.9267
+        ],
+        [
+          "content",
+          3.9267
+        ],
+        [
+          "context",
+          3.9267
+        ],
+        [
+          "cookies",
+          3.9267
+        ],
+        [
+          "course",
+          3.9267
+        ],
+        [
+          "court",
+          3.9267
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          17
+        ],
+        [
+          "signal",
+          5
+        ],
+        [
+          "telegram",
+          5
+        ],
+        [
+          "lebih",
+          4
+        ],
+        [
+          "google",
+          3
+        ],
+        [
+          "psn",
+          3
+        ],
+        [
+          "court",
+          3
+        ],
+        [
+          "us",
+          3
+        ],
+        [
+          "instagram",
+          2
+        ],
+        [
+          "android",
+          2
+        ],
+        [
+          "app store",
+          2
+        ],
+        [
+          "ftc",
+          2
+        ],
+        [
+          "section 2",
+          2
+        ],
+        [
+          "href=\"https://storage.courtlistener.com",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 41,
+        "Neutral": 8,
+        "Positive": 6
+      }
+    },
+    "2021-07-05/2021-07-11": {
+      "n_posts": 69,
+      "trending_terms": [
+        [
+          "2gb",
+          4.1499
+        ],
+        [
+          "abis",
+          4.1499
+        ],
+        [
+          "ads",
+          4.1499
+        ],
+        [
+          "allow",
+          4.1499
+        ],
+        [
+          "allowed",
+          4.1499
+        ],
+        [
+          "apk",
+          4.1499
+        ],
+        [
+          "aplikasi nya",
+          4.1499
+        ],
+        [
+          "apus",
+          4.1499
+        ],
+        [
+          "apus data",
+          4.1499
+        ],
+        [
+          "atau",
+          4.1499
+        ],
+        [
+          "backups",
+          4.1499
+        ],
+        [
+          "banyak",
+          4.1499
+        ],
+        [
+          "believe",
+          4.1499
+        ],
+        [
+          "biggest",
+          4.1499
+        ],
+        [
+          "blocked number",
+          4.1499
+        ],
+        [
+          "break",
+          4.1499
+        ],
+        [
+          "bug",
+          4.1499
+        ],
+        [
+          "cache",
+          4.1499
+        ],
+        [
+          "calls",
+          4.1499
+        ]
+      ],
+      "top_entities": [
+        [
+          "whatsapp",
+          17
+        ],
+        [
+          "google",
+          5
+        ],
+        [
+          "telegram",
+          4
+        ],
+        [
+          "signal",
+          4
+        ],
+        [
+          "youtube",
+          3
+        ],
+        [
+          "instagram",
+          2
+        ],
+        [
+          "ga",
+          2
+        ],
+        [
+          "ig",
+          2
+        ],
+        [
+          "apple",
+          2
+        ],
+        [
+          "facebook messenger",
+          2
+        ],
+        [
+          "android",
+          2
+        ],
+        [
+          "tiktok",
+          2
+        ],
+        [
+          "india",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 51,
+        "Neutral": 11,
+        "Positive": 7
+      }
+    },
+    "2021-07-12/2021-07-18": {
+      "n_posts": 107,
+      "trending_terms": [
+        [
+          "100 group",
+          4.5835
+        ],
+        [
+          "100 messages",
+          4.5835
+        ],
+        [
+          "100 metadata",
+          4.5835
+        ],
+        [
+          "able join",
+          4.5835
+        ],
+        [
+          "able read",
+          4.5835
+        ],
+        [
+          "absolutely did",
+          4.5835
+        ],
+        [
+          "absurd",
+          4.5835
+        ],
+        [
+          "absurd nonsensical",
+          4.5835
+        ],
+        [
+          "academic",
+          4.5835
+        ],
+        [
+          "add",
+          4.5835
+        ],
+        [
+          "agreeing",
+          4.5835
+        ],
+        [
+          "anti",
+          4.5835
+        ],
+        [
+          "bad",
+          4.5835
+        ],
+        [
+          "bots",
+          4.5835
+        ]
+      ],
+      "top_entities": [
+        [
+          "telegram",
+          70
+        ],
+        [
+          "signal",
+          43
+        ],
+        [
+          "whatsapp",
+          26
+        ],
+        [
+          "android",
+          4
+        ],
+        [
+          "moxie",
+          4
+        ],
+        [
+          "indian",
+          4
+        ],
+        [
+          "nsa",
+          4
+        ],
+        [
+          "russia",
+          4
+        ],
+        [
+          "durov",
+          4
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 84,
+        "Positive": 13,
+        "Neutral": 10
+      }
+    },
+    "2021-07-19/2021-07-25": {
+      "n_posts": 79,
+      "trending_terms": [
+        [
+          "accounts",
+          4.2834
+        ],
+        [
+          "ada",
+          4.2834
+        ],
+        [
+          "adopted",
+          4.2834
+        ],
+        [
+          "adopted ui",
+          4.2834
+        ],
+        [
+          "agree",
+          4.2834
+        ],
+        [
+          "allows",
+          4.2834
+        ],
+        [
+          "apk",
+          4.2834
+        ],
+        [
+          "aplikasinya",
+          4.2834
+        ],
+        [
+          "argument",
+          4.2834
+        ],
+        [
+          "audio",
+          4.2834
+        ],
+        [
+          "backdoor",
+          4.2834
+        ],
+        [
+          "bagus",
+          4.2834
+        ],
+        [
+          "banyak",
+          4.2834
+        ],
+        [
+          "basic",
+          4.2834
+        ],
+        [
+          "benefit",
+          4.2834
+        ],
+        [
+          "better",
+          4.2834
+        ],
+        [
+          "biar",
+          4.2834
+        ],
+        [
+          "block",
+          4.2834
+        ]
+      ],
+      "top_entities": [
+        [
+          "telegram",
+          37
+        ],
+        [
+          "signal",
+          26
+        ],
+        [
+          "whatsapp",
+          17
+        ],
+        [
+          "android",
+          5
+        ],
+        [
+          "devs",
+          3
+        ],
+        [
+          "twitter",
+          2
+        ],
+        [
+          "href=\"https://github.com",
+          2
+        ],
+        [
+          "signal-android",
+          2
+        ],
+        [
+          "voicemail",
+          2
+        ],
+        [
+          "ui",
+          2
+        ],
+        [
+          "russian",
+          2
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 53,
+        "Neutral": 16,
+        "Positive": 10
+      }
+    },
+    "2021-07-26/2021-08-01": {
+      "n_posts": 55,
+      "trending_terms": [
+        [
+          "able prioritise",
+          3.9267
+        ],
+        [
+          "absolutely",
+          3.9267
+        ],
+        [
+          "actually",
+          3.9267
+        ],
+        [
+          "address security",
+          3.9267
+        ],
+        [
+          "advice",
+          3.9267
+        ],
+        [
+          "android",
+          3.9267
+        ],
+        [
+          "aplikasi",
+          3.9267
+        ],
+        [
+          "audits x27",
+          3.9267
+        ],
+        [
+          "better signal",
+          3.9267
+        ],
+        [
+          "big",
+          3.9267
+        ],
+        [
+          "bisa",
+          3.9267
+        ],
+        [
+          "blocked",
+          3.9267
+        ],
+        [
+          "blue",
+          3.9267
+        ],
+        [
+          "buat",
+          3.9267
+        ],
+        [
+          "called",
+          3.9267
+        ],
+        [
+          "category",
+          3.9267
+        ],
+        [
+          "category signal",
+          3.9267
+        ],
+        [
+          "cave",
+          3.9267
+        ],
+        [
+          "changed",
+          3.9267
+        ],
+        [
+          "chats",
+          3.9267
+        ]
+      ],
+      "top_entities": [
+        [
+          "signal",
+          14
+        ],
+        [
+          "whatsapp",
+          12
+        ],
+        [
+          "telegram",
+          12
+        ],
+        [
+          "erlang",
+          3
+        ],
+        [
+          "500rb",
+          2
+        ],
+        [
+          "signal-android",
+          2
+        ],
+        [
+          "iphone",
+          2
+        ],
+        [
+          "mx",
+          2
+        ],
+        [
+          "assalamu'alaikum wr wb",
+          1
+        ],
+        [
+          "gb",
+          1
+        ],
+        [
+          "wfi",
+          1
+        ],
+        [
+          "forceclose",
+          1
+        ],
+        [
+          "vidio",
+          1
+        ]
+      ],
+      "sentiment_dist": {
+        "Negative": 40,
+        "Neutral": 9,
+        "Positive": 6
+      }
+    }
+  },
+  "generated_at": "2026-09-22T11:12:26.857306+00:00"
+}

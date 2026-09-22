@@ -1,0 +1,83 @@
+[
+  {
+    "aspect_term": "privacy",
+    "total_mentions": 4193,
+    "avg_sentiment": 0.2175,
+    "negative_ratio": 0.6582,
+    "positive_ratio": 0.0933,
+    "whatsapp_avg_sentiment": 0.2863,
+    "telegram_avg_sentiment": 0.6579
+  },
+  {
+    "aspect_term": "metadata",
+    "total_mentions": 196,
+    "avg_sentiment": 0.0357,
+    "negative_ratio": 0.9439,
+    "positive_ratio": 0.0153,
+    "whatsapp_avg_sentiment": null,
+    "telegram_avg_sentiment": null
+  },
+  {
+    "aspect_term": "facebook",
+    "total_mentions": 2488,
+    "avg_sentiment": 0.175,
+    "negative_ratio": 0.6917,
+    "positive_ratio": 0.0418,
+    "whatsapp_avg_sentiment": 0.1925,
+    "telegram_avg_sentiment": 0.4848
+  },
+  {
+    "aspect_term": "policy",
+    "total_mentions": 1768,
+    "avg_sentiment": 0.2582,
+    "negative_ratio": 0.5639,
+    "positive_ratio": 0.0803,
+    "whatsapp_avg_sentiment": 0.2635,
+    "telegram_avg_sentiment": null
+  },
+  {
+    "aspect_term": "terms",
+    "total_mentions": 646,
+    "avg_sentiment": 0.1803,
+    "negative_ratio": 0.7121,
+    "positive_ratio": 0.0728,
+    "whatsapp_avg_sentiment": 0.1538,
+    "telegram_avg_sentiment": null
+  },
+  {
+    "aspect_term": "switch",
+    "total_mentions": 636,
+    "avg_sentiment": 0.1242,
+    "negative_ratio": 0.8475,
+    "positive_ratio": 0.0959,
+    "whatsapp_avg_sentiment": 0.2449,
+    "telegram_avg_sentiment": 1.0
+  },
+  {
+    "aspect_term": "security",
+    "total_mentions": 750,
+    "avg_sentiment": 0.1367,
+    "negative_ratio": 0.8173,
+    "positive_ratio": 0.0907,
+    "whatsapp_avg_sentiment": 0.2029,
+    "telegram_avg_sentiment": 0.625
+  },
+  {
+    "aspect_term": "signal",
+    "total_mentions": 4331,
+    "avg_sentiment": 0.1438,
+    "negative_ratio": 0.7934,
+    "positive_ratio": 0.081,
+    "whatsapp_avg_sentiment": 0.339,
+    "telegram_avg_sentiment": 0.4231
+  },
+  {
+    "aspect_term": "telegram",
+    "total_mentions": 4381,
+    "avg_sentiment": 0.1909,
+    "negative_ratio": 0.7181,
+    "positive_ratio": 0.1,
+    "whatsapp_avg_sentiment": 0.2983,
+    "telegram_avg_sentiment": 0.5152
+  }
+]

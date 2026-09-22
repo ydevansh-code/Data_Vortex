@@ -1,0 +1,151 @@
+{
+  "method": "rolling_zscore",
+  "freq": "D",
+  "rolling_window_days": 7,
+  "threshold_zscore": 1.5,
+  "total_buckets": 271,
+  "shifts_detected": 20,
+  "shifts": [
+    {
+      "date": "2020-11-18 00:00:00+00:00",
+      "sentiment_mean": 0.1667,
+      "zscore": -1.644,
+      "direction": "negative",
+      "n_posts": 12
+    },
+    {
+      "date": "2020-12-03 00:00:00+00:00",
+      "sentiment_mean": 0.0,
+      "zscore": -2.017,
+      "direction": "negative",
+      "n_posts": 6
+    },
+    {
+      "date": "2020-12-13 00:00:00+00:00",
+      "sentiment_mean": 0.5,
+      "zscore": 1.891,
+      "direction": "positive",
+      "n_posts": 4
+    },
+    {
+      "date": "2020-12-18 00:00:00+00:00",
+      "sentiment_mean": 0.5294,
+      "zscore": 1.61,
+      "direction": "positive",
+      "n_posts": 17
+    },
+    {
+      "date": "2020-12-26 00:00:00+00:00",
+      "sentiment_mean": 0.5,
+      "zscore": 2.041,
+      "direction": "positive",
+      "n_posts": 10
+    },
+    {
+      "date": "2021-01-03 00:00:00+00:00",
+      "sentiment_mean": 0.3889,
+      "zscore": 1.587,
+      "direction": "positive",
+      "n_posts": 9
+    },
+    {
+      "date": "2021-01-29 00:00:00+00:00",
+      "sentiment_mean": 0.2935,
+      "zscore": 1.564,
+      "direction": "positive",
+      "n_posts": 92
+    },
+    {
+      "date": "2021-02-20 00:00:00+00:00",
+      "sentiment_mean": 0.4808,
+      "zscore": 1.7,
+      "direction": "positive",
+      "n_posts": 26
+    },
+    {
+      "date": "2021-03-13 00:00:00+00:00",
+      "sentiment_mean": 0.4,
+      "zscore": 1.71,
+      "direction": "positive",
+      "n_posts": 5
+    },
+    {
+      "date": "2021-03-18 00:00:00+00:00",
+      "sentiment_mean": 0.4118,
+      "zscore": 2.096,
+      "direction": "positive",
+      "n_posts": 17
+    },
+    {
+      "date": "2021-04-05 00:00:00+00:00",
+      "sentiment_mean": 0.25,
+      "zscore": 2.146,
+      "direction": "positive",
+      "n_posts": 26
+    },
+    {
+      "date": "2021-04-09 00:00:00+00:00",
+      "sentiment_mean": 0.125,
+      "zscore": 1.658,
+      "direction": "positive",
+      "n_posts": 20
+    },
+    {
+      "date": "2021-04-18 00:00:00+00:00",
+      "sentiment_mean": 0.6111,
+      "zscore": 1.99,
+      "direction": "positive",
+      "n_posts": 9
+    },
+    {
+      "date": "2021-05-28 00:00:00+00:00",
+      "sentiment_mean": 0.55,
+      "zscore": 1.762,
+      "direction": "positive",
+      "n_posts": 20
+    },
+    {
+      "date": "2021-06-04 00:00:00+00:00",
+      "sentiment_mean": 0.3125,
+      "zscore": 1.989,
+      "direction": "positive",
+      "n_posts": 8
+    },
+    {
+      "date": "2021-06-08 00:00:00+00:00",
+      "sentiment_mean": 0.2857,
+      "zscore": 1.695,
+      "direction": "positive",
+      "n_posts": 14
+    },
+    {
+      "date": "2021-07-01 00:00:00+00:00",
+      "sentiment_mean": 0.5,
+      "zscore": 1.668,
+      "direction": "positive",
+      "n_posts": 6
+    },
+    {
+      "date": "2021-07-05 00:00:00+00:00",
+      "sentiment_mean": 0.375,
+      "zscore": 1.544,
+      "direction": "positive",
+      "n_posts": 12
+    },
+    {
+      "date": "2021-07-17 00:00:00+00:00",
+      "sentiment_mean": 0.0,
+      "zscore": -1.537,
+      "direction": "negative",
+      "n_posts": 5
+    },
+    {
+      "date": "2021-07-26 00:00:00+00:00",
+      "sentiment_mean": 0.2857,
+      "zscore": 1.504,
+      "direction": "positive",
+      "n_posts": 14
+    }
+  ],
+  "generated_at": "2026-09-22T08:59:03.666647+00:00"
+}

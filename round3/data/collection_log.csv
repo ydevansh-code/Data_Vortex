@@ -1,0 +1,12 @@
+timestamp,source,query,count,status
+2026-09-20T09:46:42.044132+00:00,google_play,com.whatsapp,0,SKIP_NO_LIB
+2026-09-20T09:47:25.043228+00:00,google_play,com.whatsapp,0,EMPTY
+2026-09-20T10:00:53.102541+00:00,hacker_news,multi-query batch,1538,OK
+2026-09-20T10:49:13.073534+00:00,gdelt,multi-query batch,1953,OK
+2026-09-21T16:19:52.351005+00:00,gdelt,multi-query batch,2250,OK
+2026-09-21T16:49:28.105106+00:00,google_play,com.whatsapp,0,EMPTY
+2026-09-21T16:55:03.077303+00:00,hacker_news,multi-query batch,1179,OK
+2026-09-21T18:53:34.815275+00:00,gdelt,multi-query batch,3750,OK
+2026-09-21T19:17:32.328516+00:00,google_play,com.whatsapp,0,EMPTY
+2026-09-21T19:18:02.882096+00:00,hacker_news,multi-query batch,1539,OK
+2026-09-21T19:46:00.458143+00:00,hacker_news,multi-query batch,1893,OK

@@ -24,3 +24,9 @@ wheels/
 venv/
 ENV/
 phase2_audit_report.txt
+
+# Large raw data files (>50MB — store locally only)
+round3/data/raw/playstore_com.whatsapp_*.csv
+round3/data/raw/Telegram_Review_Cleaned.csv
+round3/data/kaggle/
+data/raw/*.csv

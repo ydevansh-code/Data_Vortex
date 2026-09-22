@@ -1,0 +1,26 @@
+{
+  "T-0 (Baseline: Nov-Dec 2020)": {
+    "count": 648,
+    "topics": [
+      "Topic 1: x27, data, whatsapp, facebook, privacy, fb, don, apple",
+      "Topic 2: x27, whatsapp, signal, telegram, like, use, people, https",
+      "Topic 3: whatsapp, telegram, di, story, fitur, fontcolor, ada, ffff00"
+    ]
+  },
+  "T+1 (Shock Phase: Jan 2021)": {
+    "count": 5941,
+    "topics": [
+      "Topic 1: x27, signal, telegram, whatsapp, people, https, like, use",
+      "Topic 2: x27, whatsapp, telegram, signal, facebook, people, like, use",
+      "Topic 3: x27, privacy, whatsapp, signal, telegram, policy, facebook, data"
+    ]
+  },
+  "T+2 (Fallout Phase: Feb-Jul 2021)": {
+    "count": 4373,
+    "topics": [
+      "Topic 1: x27, whatsapp, data, facebook, privacy, like, telegram, signal",
+      "Topic 2: x27, privacy, whatsapp, signal, telegram, people, privacy privacy, don",
+      "Topic 3: x27, signal, telegram, whatsapp, people, like, use, gt"
+    ]
+  }
+}
