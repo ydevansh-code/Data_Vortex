@@ -38,81 +38,54 @@ SOURCES = [
     {
         "name": "1. GDELT Global News",
         "file": "gdelt_collector.py",
-        "badge": "Live API  •  No Auth Required  •  3,929 articles collected",
+        "badge": "Live API  \u2022  No Auth Required  \u2022  7,953 articles collected across 3 runs",
         "intro": (
             "GDELT (Global Database of Events, Language, and Tone) is one of the world's largest "
             "open databases of human society, updated every 15 minutes. It indexes news articles "
             "from thousands of global sources across hundreds of languages.\n\n"
             "We used the GDELT DOC 2.0 API to pull English-language news articles mentioning "
-            "WhatsApp privacy keywords across our full date window (Nov 2020 – Jul 2021). "
+            "WhatsApp privacy keywords across our full date window (Nov 2020 - Jul 2021). "
             "The collector queries four themed search terms in 28-day batches, enforcing GDELT's "
             "mandatory 5-second politeness delay between every request. Results are saved "
             "incrementally and de-duplicated by URL to prevent double-counting across overlapping "
-            "query windows."
+            "query windows. Three collection runs were executed producing 1,953 + 2,250 + 3,750 "
+            "records respectively, totalling 7,953 unique news articles."
         ),
     },
     {
         "name": "2. Hacker News (Algolia API)",
         "file": "hn_collector.py",
-        "badge": "Live API  •  No Auth Required  •  6,149 posts collected",
+        "badge": "Live API  \u2022  No Auth Required  \u2022  6,149 posts collected across 4 runs",
         "intro": (
             "Hacker News is the premier tech-community discussion platform, run by Y Combinator. "
             "Its audience skews toward developers, researchers, and privacy-conscious power users "
-            "— making it an ideal signal source for tech-savvy sentiment around WhatsApp's policy changes.\n\n"
+            "making it an ideal signal source for tech-savvy sentiment around WhatsApp's policy changes.\n\n"
             "We used the free Algolia HN Search API (no authentication required) to fetch "
-            "all stories and comments matching our four query terms within the Jan–Jul 2021 "
+            "all stories and comments matching four query terms within the Jan-Jul 2021 "
             "window. HTML entities returned by the API are cleaned inline before saving. "
-            "The collector is the largest single source in our dataset with 6,149 records."
+            "Four collection runs produced 1,538 + 1,179 + 1,539 + 1,893 records "
+            "totalling 6,149 unique posts — the largest single live-scraped source in our dataset."
         ),
     },
     {
         "name": "3. Kaggle Play Store Reviews",
         "file": "kaggle_collector.py",
-        "badge": "External Dataset  •  Multilingual  •  ~4,800 reviews processed",
+        "badge": "External Dataset  \u2022  Multilingual (EN + ID)  \u2022  Primary Data Source",
         "intro": (
             "Two large Kaggle datasets were ingested as primary data sources: a WhatsApp Play "
-            "Store review dump (760 MB, millions of rows) and a Telegram Play Store review dump "
-            "containing Indonesian-language reviews from the privacy backlash period.\n\n"
-            "The collector applies a five-stage pipeline: (1) strict date range filter to Jan–Jul 2021, "
-            "(2) keyword noise filter (English + Indonesian terms: privacy, privasi, kebijakan, "
+            "Store review dump and a Telegram Play Store review dump containing Indonesian-language "
+            "reviews from the Jan-Jul 2021 privacy backlash period.\n\n"
+            "The collector applies a five-stage pipeline: (1) strict date range filter to Jan-Jul 2021, "
+            "(2) keyword noise filter in both English and Indonesian (privacy, privasi, kebijakan, "
             "telegram, signal, etc.), (3) random sampling capped at 3,000 rows per dataset to "
-            "respect translation API limits, (4) batch translation of Indonesian text to English "
+            "respect translation API rate limits, (4) batch translation of Indonesian text to English "
             "using deep_translator (Google Translate), and (5) schema harmonisation to our "
-            "pipeline's standard column format."
-        ),
-    },
-    {
-        "name": "4. Google Play Store Reviews",
-        "file": "google_play_reviews_collector.py",
-        "badge": "Live Scrape  •  No Auth Required  •  Supplementary Source",
-        "intro": (
-            "The google-play-scraper library provides access to live Play Store reviews for any "
-            "app without requiring API keys or authentication. We targeted com.whatsapp across "
-            "both English (US) and English (India) locales.\n\n"
-            "The collector fetches the newest 5,000 reviews per language/country combination and "
-            "applies strict date filtering to keep only records within our Nov 2020 – Jul 2021 "
-            "analysis window. Star ratings are captured as an engagement proxy. Note: Google's "
-            "Play Store API enforces recency limits, so historical coverage is best-effort; "
-            "the Kaggle dataset is the primary Play Store source."
-        ),
-    },
-    {
-        "name": "5. Reddit (PRAW)",
-        "file": "reddit_collector.py",
-        "badge": "Live API  •  OAuth Required  •  Supplementary Source",
-        "intro": (
-            "Reddit hosts some of the most substantive public discourse around technology and "
-            "privacy. Subreddits like r/whatsapp, r/privacy, r/technology, and r/news saw heavy "
-            "activity during the January 2021 policy announcement.\n\n"
-            "We used PRAW (Python Reddit API Wrapper) with a registered script-type application "
-            "(client_id + client_secret stored as environment variables). The collector searches "
-            "five keyword queries across four subreddits, keeping only posts within our date "
-            "window. Post title and self-text are concatenated into the text field; upvote "
-            "score serves as the engagement metric. A 0.6-second politeness delay is applied "
-            "between every API call."
+            "pipeline's standard column format. This source forms the backbone of our App Store "
+            "sentiment layer and the Telegram migration signal."
         ),
     },
 ]
+
 
 
 def read_code(filename):
